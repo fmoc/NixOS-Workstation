@@ -6,7 +6,7 @@
     wantedBy = [ "multi-user.target" ];
     script = ''
       rm -rf /etc/nixos
-      git clone https://git.lewd.wtf/Ciapa/FabLab-NixOS.git /etc/nixos
+      git clone https://github.com/FabLab-Altmuehlfranken/NixOS-Workstation.git /etc/nixos
       nixos-rebuild boot --upgrade
     '';
     serviceConfig = {
