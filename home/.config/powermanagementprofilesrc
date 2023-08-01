@@ -9,6 +9,11 @@ lidAction=1
 powerButtonAction=16
 powerDownAction=16
 
+[AC][SuspendSession]
+idleTime=7200000
+suspendThenHibernate=false
+suspendType=8
+
 [Battery]
 icon=battery-060
 
