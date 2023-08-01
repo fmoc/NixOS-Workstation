@@ -23,7 +23,7 @@ mount /dev/disk/by-label/boot /mnt/boot
 mount /dev/disk/by-label/nixstore /mnt/nix
 swapon ${DISK}2
 
-nix-shell -p git --run 'git clone https://git.lewd.wtf/Ciapa/FabLab-NixOS.git /mnt/etc/nixos'
+nix-shell -p git --run 'git clone --depth=1 https://github.com/FabLab-Altmuehlfranken/NixOS-Workstation.git /mnt/etc/nixos'
 
 nixos-install --no-root-passwd
 reboot
