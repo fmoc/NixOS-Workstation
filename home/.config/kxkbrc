@@ -4,5 +4,7 @@ update_info=kxkb.upd:remove-empty-lists,kxkb.upd:add-back-resetoptions,kxkb_vari
 [Layout]
 DisplayNames=,us
 LayoutList=de,de
+Options=terminate:ctrl_alt_bksp,grp:win_space_toggle
+ResetOldOptions=true
 Use=true
 VariantList=,us
