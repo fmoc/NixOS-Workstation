@@ -1,0 +1,6 @@
+[General]
+Index=Netzlaufwerk
+
+[Netzlaufwerk]
+Type=SMB
+URL=smb://omv.linuxmuster.lan/public

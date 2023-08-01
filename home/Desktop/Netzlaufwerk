@@ -1,0 +1,6 @@
+[Desktop Entry]
+Charset=
+Icon=folder-remote
+Name=Netzlaufwerk
+Type=Link
+URL=smb://omv.fablab.local/public

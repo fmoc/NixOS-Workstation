@@ -1,0 +1,802 @@
+2022-06-18 21:32:08,026 | INFO    | inkcut | ========================================
+2022-06-18 21:32:08,026 | INFO    | inkcut | Inkcut launched
+2022-06-18 21:32:08,026 | INFO    | inkcut | Version: 2.1.3
+2022-06-18 21:32:08,026 | INFO    | inkcut | Python: 3.10.4 (main, Apr  2 2022, 09:04:19) [GCC 11.2.0]
+2022-06-18 21:32:08,026 | INFO    | inkcut | System: uname_result(system='Linux', node='fablab-pc01', release='5.15.0-39-generic', version='#42-Ubuntu SMP Thu Jun 9 23:42:32 UTC 2022', machine='x86_64')
+2022-06-18 21:32:08,026 | INFO    | inkcut | Executable: /usr/bin/python3
+2022-06-18 21:32:08,026 | INFO    | inkcut | Args: ['/home/fablab/.local/bin/inkcut']
+2022-06-18 21:32:08,045 | INFO    | inkcut | Qt: 5.15.3 Api:
+2022-06-18 21:32:08,045 | INFO    | inkcut | ========================================
+2022-06-18 21:32:09,027 | DEBUG   | inkcut | Starting plugin 'inkcut.core'
+2022-06-18 21:32:09,027 | DEBUG   | inkcut | Inkcut loaded.
+2022-06-18 21:32:09,042 | DEBUG   | inkcut | CLI | Commands loaded
+2022-06-18 21:32:09,043 | DEBUG   | inkcut | CLI | No cli command was given.
+2022-06-18 21:32:09,043 | WARNING | inkcut | Setting locale: de_DE
+2022-06-18 21:32:09,925 | DEBUG   | inkcut | CLI | Commands loaded
+2022-06-18 21:32:09,926 | DEBUG   | inkcut | CLI | No cli command was given.
+2022-06-18 21:32:09,933 | INFO    | inkcut | Loading plugin inkcut.device
+2022-06-18 21:32:10,281 | DEBUG   | inkcut | Starting plugin 'inkcut.device'
+2022-06-18 21:32:10,680 | INFO    | inkcut | Loading plugin inkcut.job
+2022-06-18 21:32:10,698 | DEBUG   | inkcut | Starting plugin 'inkcut.job'
+2022-06-18 21:32:10,699 | INFO    | inkcut | {'type': 'create', 'object': <inkcut.job.plugin.JobPlugin object at 0x7fec880ecf40>, 'name': 'job', 'value': <inkcut.job.models.Job object at 0x7fec6b978540>}
+2022-06-18 21:32:10,699 | DEBUG   | inkcut | Starting plugin 'inkcut.preview'
+2022-06-18 21:32:10,700 | INFO    | inkcut | Saving state due to change: {'type': 'update', 'object': <inkcut.device.plugin.DevicePlugin object at 0x7fec9158c8c0>, 'name': 'devices', 'oldvalue': [], 'value': [<inkcut.device.plugin.Device object at 0x7fec6bacf540>]}
+2022-06-18 21:32:10,700 | INFO    | inkcut | {}
+2022-06-18 21:32:10,701 | INFO    | inkcut | Saving state due to change: {'type': 'request'}
+2022-06-18 21:32:10,710 | INFO    | inkcut | device | 
+2022-06-18 21:32:10,714 | INFO    | inkcut | {}
+2022-06-18 21:32:10,715 | INFO    | inkcut | Saving state due to change: {'type': 'request'}
+2022-06-18 21:32:10,718 | INFO    | inkcut | Saving state due to change: {'type': 'request'}
+2022-06-18 21:32:10,720 | INFO    | inkcut | {'type': 'create', 'object': <inkcut.job.plugin.JobPlugin object at 0x7fec880ecf40>, 'name': 'job', 'value': <inkcut.job.models.Job object at 0x7fec6b933980>}
+2022-06-18 21:32:10,720 | INFO    | inkcut | Saving state due to change: {'type': 'request'}
+2022-06-18 21:32:11,199 | INFO    | inkcut | Loading plugin inkcut.job
+2022-06-18 21:32:11,199 | INFO    | inkcut | Loading plugin inkcut.job
+2022-06-18 21:32:11,200 | INFO    | inkcut | Loading plugin inkcut.job
+2022-06-18 21:32:11,200 | INFO    | inkcut | Loading plugin inkcut.job
+2022-06-18 21:32:11,200 | INFO    | inkcut | Loading plugin inkcut.monitor
+2022-06-18 21:32:11,200 | DEBUG   | inkcut | Starting plugin 'inkcut.monitor'
+2022-06-18 21:32:11,289 | INFO    | inkcut | Loading plugin inkcut.console
+2022-06-18 21:32:11,591 | INFO    | inkcut | Loading plugin inkcut.joystick
+2022-06-18 21:32:11,592 | DEBUG   | inkcut | Starting plugin 'inkcut.joystick'
+2022-06-18 21:32:11,773 | INFO    | inkcut | Loading plugin inkcut.preview
+2022-06-18 21:32:11,802 | DEBUG   | inkcut | Updating dock items: [<inkcut.device.view.DeviceProgressDockItem object at 0x7fec918e4940>, <inkcut.job.view.GraphicDockItem object at 0x7fec69f4e800>, <inkcut.job.view.MaterialDockItem object at 0x7fec880a3940>, <inkcut.job.view.WeedlinesDockItem object at 0x7fec880ed7c0>, <inkcut.job.view.LayersDockItem object at 0x7fec6958af40>, <inkcut.job.view.JobHistoryDockItem object at 0x7fec69587a80>, <inkcut.monitor.view.MonitorDockItem object at 0x7fec916067c0>, <inkcut.console.view.ConsoleDockItem object at 0x7fec69f193c0>, <inkcut.joystick.view.JoystickDockItem object at 0x7fec69f79040>, <inkcut.preview.view.PreviewDockItem object at 0x7fec695d7780>]
+2022-06-18 21:32:11,952 | DEBUG   | inkcut | Updating settings pages: [<inkcut.ui.extensions.SettingsPage object at 0x7fec915f7f00>, <inkcut.ui.extensions.SettingsPage object at 0x7fec915c2f40>, <inkcut.ui.extensions.SettingsPage object at 0x7fec88110f40>]
+2022-06-18 21:32:11,953 | DEBUG   | inkcut | Starting plugin 'inkcut.ui'
+2022-06-18 21:32:12,383 | DEBUG   | asyncio | Using selector: EpollSelector
+2022-06-18 21:32:12,388 | DEBUG   | asyncio | Using selector: EpollSelector
+2022-06-18 21:32:19,228 | INFO    | inkcut | ========================================
+2022-06-18 21:32:19,228 | INFO    | inkcut | Inkcut exited cleanly
+2022-06-18 21:32:19,228 | INFO    | inkcut | ========================================
+2022-06-18 21:41:18,117 | INFO    | inkcut | ========================================
+2022-06-18 21:41:18,117 | INFO    | inkcut | Inkcut launched
+2022-06-18 21:41:18,117 | INFO    | inkcut | Version: 2.1.3
+2022-06-18 21:41:18,117 | INFO    | inkcut | Python: 3.10.4 (main, Apr  2 2022, 09:04:19) [GCC 11.2.0]
+2022-06-18 21:41:18,117 | INFO    | inkcut | System: uname_result(system='Linux', node='fablab-pc01', release='5.15.0-39-generic', version='#42-Ubuntu SMP Thu Jun 9 23:42:32 UTC 2022', machine='x86_64')
+2022-06-18 21:41:18,117 | INFO    | inkcut | Executable: /usr/bin/python3
+2022-06-18 21:41:18,118 | INFO    | inkcut | Args: ['/home/fablab/.local/bin/inkcut']
+2022-06-18 21:41:18,136 | INFO    | inkcut | Qt: 5.15.3 Api:
+2022-06-18 21:41:18,136 | INFO    | inkcut | ========================================
+2022-06-18 21:41:18,502 | DEBUG   | inkcut | Starting plugin 'inkcut.core'
+2022-06-18 21:41:18,502 | DEBUG   | inkcut | Inkcut loaded.
+2022-06-18 21:41:18,506 | DEBUG   | inkcut | CLI | Commands loaded
+2022-06-18 21:41:18,506 | DEBUG   | inkcut | CLI | No cli command was given.
+2022-06-18 21:41:18,508 | WARNING | inkcut | Setting locale: de_DE
+2022-06-18 21:41:18,744 | DEBUG   | inkcut | CLI | Commands loaded
+2022-06-18 21:41:18,745 | DEBUG   | inkcut | CLI | No cli command was given.
+2022-06-18 21:41:18,755 | INFO    | inkcut | Loading plugin inkcut.job
+2022-06-18 21:41:18,759 | DEBUG   | inkcut | Starting plugin 'inkcut.job'
+2022-06-18 21:41:18,760 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Material object at 0x7f3298266300>.size = [1800.0, 2700.0]'
+2022-06-18 21:41:18,760 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Material object at 0x7f3298266300>.padding = [10.0, 10.0, 10.0, 10.0]'
+2022-06-18 21:41:18,760 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Material object at 0x7f3298266300>.name = '
+2022-06-18 21:41:18,760 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Material object at 0x7f3298266300>.color = #000000'
+2022-06-18 21:41:18,760 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Material object at 0x7f3298266300>.is_roll = False'
+2022-06-18 21:41:18,760 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Material object at 0x7f3298266300>.used = [0.0, 0.0]'
+2022-06-18 21:41:18,760 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Material object at 0x7f3298266300>.cost = 1.0'
+2022-06-18 21:41:18,760 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Material object at 0x7f3298266300>.use_force = False'
+2022-06-18 21:41:18,760 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Material object at 0x7f3298266300>.use_speed = False'
+2022-06-18 21:41:18,760 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Material object at 0x7f3298266300>.force = 10'
+2022-06-18 21:41:18,760 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Material object at 0x7f3298266300>.speed = 10'
+2022-06-18 21:41:18,761 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7f3284294d00>.status = staged'
+2022-06-18 21:41:18,761 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7f3284294d00>.created = 2022-06-18 21:32:10.721349'
+2022-06-18 21:41:18,761 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7f3284294d00>.started = None'
+2022-06-18 21:41:18,761 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7f3284294d00>.ended = None'
+2022-06-18 21:41:18,761 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7f3284294d00>.progress = 0'
+2022-06-18 21:41:18,761 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7f3284294d00>.data = '
+2022-06-18 21:41:18,761 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7f3284294d00>.count = 0'
+2022-06-18 21:41:18,761 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7f3284294d00>.speed = 0.0'
+2022-06-18 21:41:18,761 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7f3284294d00>.length = 0.0'
+2022-06-18 21:41:18,761 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7f3284294d00>.duration = 0:00:00'
+2022-06-18 21:41:18,761 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7f3284294d00>.units = in'
+2022-06-18 21:41:18,761 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7f3284294d00>.auto_approve = False'
+2022-06-18 21:41:18,761 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Job object at 0x7f3297879440>.material = <inkcut.job.models.Material object at 0x7f3298266300>'
+2022-06-18 21:41:18,762 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Job object at 0x7f3297879440>.document = '
+2022-06-18 21:41:18,762 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Job object at 0x7f3297879440>.document_kwargs = {}'
+2022-06-18 21:41:18,762 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Job object at 0x7f3297879440>.info = <inkcut.job.models.JobInfo object at 0x7f3284294d00>'
+2022-06-18 21:41:18,762 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Job object at 0x7f3297879440>.scale = [1.0, 1.0]'
+2022-06-18 21:41:18,762 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Job object at 0x7f3297879440>.auto_scale = False'
+2022-06-18 21:41:18,762 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Job object at 0x7f3297879440>.lock_scale = True'
+2022-06-18 21:41:18,762 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Job object at 0x7f3297879440>.mirror = [False, False]'
+2022-06-18 21:41:18,762 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Job object at 0x7f3297879440>.align_center = [False, False]'
+2022-06-18 21:41:18,762 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Job object at 0x7f3297879440>.rotation = 0.0'
+2022-06-18 21:41:18,762 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Job object at 0x7f3297879440>.auto_rotate = False'
+2022-06-18 21:41:18,762 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Job object at 0x7f3297879440>.copies = 1'
+2022-06-18 21:41:18,762 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Job object at 0x7f3297879440>.auto_copies = False'
+2022-06-18 21:41:18,762 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Job object at 0x7f3297879440>.copy_spacing = [10.0, 10.0]'
+2022-06-18 21:41:18,762 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Job object at 0x7f3297879440>.copy_weedline = False'
+2022-06-18 21:41:18,762 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Job object at 0x7f3297879440>.copy_weedline_padding = [10.0, 10.0, 10.0, 10.0]'
+2022-06-18 21:41:18,762 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Job object at 0x7f3297879440>.plot_weedline = False'
+2022-06-18 21:41:18,762 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Job object at 0x7f3297879440>.plot_weedline_padding = [10.0, 10.0, 10.0, 10.0]'
+2022-06-18 21:41:18,762 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Job object at 0x7f3297879440>.order = Normal'
+2022-06-18 21:41:18,763 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Job object at 0x7f3297879440>.feed_to_end = False'
+2022-06-18 21:41:18,763 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Job object at 0x7f3297879440>.feed_after = 0.0'
+2022-06-18 21:41:18,763 | INFO    | inkcut | {'type': 'create', 'object': <inkcut.job.plugin.JobPlugin object at 0x7f3284273cc0>, 'name': 'job', 'value': <inkcut.job.models.Job object at 0x7f3284279bc0>}
+2022-06-18 21:41:18,881 | DEBUG   | inkcut | Starting plugin 'inkcut.preview'
+2022-06-18 21:41:18,963 | DEBUG   | inkcut | Starting plugin 'inkcut.device'
+2022-06-18 21:41:18,964 | DEBUG   | inkcut | Restoring state '<inkcut.core.models.AreaBase object at 0x7f327e80ce80>.size = [2692.9133858160003, 900000.0]'
+2022-06-18 21:41:18,964 | DEBUG   | inkcut | Restoring state '<inkcut.core.models.AreaBase object at 0x7f327e80ce80>.padding = [10.0, 10.0, 10.0, 10.0]'
+2022-06-18 21:41:18,971 | DEBUG   | inkcut | Restoring state '<inkcut.device.transports.printer.plugin.CupsPrinterConfig object at 0x7f327dfc5600>.printer = '
+2022-06-18 21:41:18,971 | DEBUG   | inkcut | Restoring state '<inkcut.device.protocols.hpgl.HPGLProtocol object at 0x7f327dfc5640>.declaration = <inkcut.device.extensions.DeviceProtocol object at 0x7f327dfd1dc0>'
+2022-06-18 21:41:18,971 | DEBUG   | inkcut | Restoring state '<inkcut.device.protocols.hpgl.HPGLProtocol object at 0x7f327dfc5640>.config = <inkcut.core.models.Model object at 0x7f327dfd1ec0>'
+2022-06-18 21:41:18,972 | DEBUG   | inkcut | Restoring state '.declaration = <inkcut.device.extensions.DeviceTransport object at 0x7f327dfc4e00>'
+2022-06-18 21:41:18,972 | DEBUG   | inkcut | Restoring state '.config = <inkcut.device.transports.printer.plugin.CupsPrinterConfig object at 0x7f327dfc5600>'
+2022-06-18 21:41:18,972 | DEBUG   | inkcut | Restoring state '.protocol = <inkcut.device.protocols.hpgl.HPGLProtocol object at 0x7f327dfc5640>'
+2022-06-18 21:41:18,973 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f327dfc5540>.step_time = 35.0'
+2022-06-18 21:41:18,973 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f327dfc5540>.custom_rate = -1.0'
+2022-06-18 21:41:18,973 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f327dfc5540>.step_size = 3.5433070866'
+2022-06-18 21:41:18,973 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f327dfc5540>.interpolate = False'
+2022-06-18 21:41:18,973 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f327dfc5540>.sample_rate = 100'
+2022-06-18 21:41:18,973 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f327dfc5540>.rotation = 0'
+2022-06-18 21:41:18,973 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f327dfc5540>.swap_xy = False'
+2022-06-18 21:41:18,973 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f327dfc5540>.mirror_y = False'
+2022-06-18 21:41:18,973 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f327dfc5540>.mirror_x = False'
+2022-06-18 21:41:18,973 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f327dfc5540>.scale = [1.0, 1.0]'
+2022-06-18 21:41:18,973 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f327dfc5540>.quality_factor = 1.0'
+2022-06-18 21:41:18,973 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f327dfc5540>.speed = 4.0'
+2022-06-18 21:41:18,974 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f327dfc5540>.speed_units = in/s'
+2022-06-18 21:41:18,974 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f327dfc5540>.speed_enabled = False'
+2022-06-18 21:41:18,974 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f327dfc5540>.force = 40.0'
+2022-06-18 21:41:18,974 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f327dfc5540>.force_units = g'
+2022-06-18 21:41:18,974 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f327dfc5540>.force_enabled = False'
+2022-06-18 21:41:18,974 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f327dfc5540>.absolute = False'
+2022-06-18 21:41:18,974 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f327dfc5540>.spooled = False'
+2022-06-18 21:41:18,974 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f327dfc5540>.test_mode = False'
+2022-06-18 21:41:18,974 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f327dfc5540>.commands_before = '
+2022-06-18 21:41:18,974 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f327dfc5540>.commands_after = '
+2022-06-18 21:41:18,974 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f327dfc5540>.commands_connect = '
+2022-06-18 21:41:18,974 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f327dfc5540>.commands_disconnect = '
+2022-06-18 21:41:18,974 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.Device object at 0x7f327dfc49c0>.name = New device'
+2022-06-18 21:41:18,974 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.Device object at 0x7f327dfc49c0>.manufacturer = '
+2022-06-18 21:41:18,974 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.Device object at 0x7f327dfc49c0>.model = '
+2022-06-18 21:41:18,974 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.Device object at 0x7f327dfc49c0>.custom = False'
+2022-06-18 21:41:18,975 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.Device object at 0x7f327dfc49c0>.area = <inkcut.core.models.AreaBase object at 0x7f327e80ce80>'
+2022-06-18 21:41:18,975 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.Device object at 0x7f327dfc49c0>.declaration = <inkcut.device.extensions.DeviceDriver object at 0x7f327dfc4d40>'
+2022-06-18 21:41:18,975 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.Device object at 0x7f327dfc49c0>.filters = []'
+2022-06-18 21:41:18,975 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.Device object at 0x7f327dfc49c0>.connection = '
+2022-06-18 21:41:18,975 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.Device object at 0x7f327dfc49c0>.jobs = []'
+2022-06-18 21:41:18,975 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.Device object at 0x7f327dfc49c0>.queue = []'
+2022-06-18 21:41:18,975 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.Device object at 0x7f327dfc49c0>.config = <inkcut.device.plugin.DeviceConfig object at 0x7f327dfc5540>'
+2022-06-18 21:41:18,975 | INFO    | inkcut | {}
+2022-06-18 21:41:18,976 | INFO    | inkcut | Saving state due to change: {'type': 'request'}
+2022-06-18 21:41:18,978 | WARNING | inkcut | Plugin inkcut.device state restored from: /home/fablab/.config/inkcut/inkcut.device.json
+2022-06-18 21:41:18,979 | INFO    | inkcut | Saving state due to change: {'type': 'request'}
+2022-06-18 21:41:18,980 | INFO    | inkcut | {'type': 'update', 'object': <inkcut.job.plugin.JobPlugin object at 0x7f3284273cc0>, 'name': 'job', 'oldvalue': <inkcut.job.models.Job object at 0x7f3284279bc0>, 'value': <inkcut.job.models.Job object at 0x7f3297879440>}
+2022-06-18 21:41:18,980 | INFO    | inkcut | Saving state due to change: {'type': 'request'}
+2022-06-18 21:41:18,981 | WARNING | inkcut | Plugin inkcut.job state restored from: /home/fablab/.config/inkcut/inkcut.job.json
+2022-06-18 21:41:19,104 | INFO    | inkcut | Loading plugin inkcut.job
+2022-06-18 21:41:19,105 | INFO    | inkcut | Loading plugin inkcut.job
+2022-06-18 21:41:19,105 | INFO    | inkcut | Loading plugin inkcut.job
+2022-06-18 21:41:19,105 | INFO    | inkcut | Loading plugin inkcut.job
+2022-06-18 21:41:19,105 | INFO    | inkcut | Loading plugin inkcut.joystick
+2022-06-18 21:41:19,106 | DEBUG   | inkcut | Starting plugin 'inkcut.joystick'
+2022-06-18 21:41:19,134 | INFO    | inkcut | Loading plugin inkcut.preview
+2022-06-18 21:41:19,141 | INFO    | inkcut | Loading plugin inkcut.monitor
+2022-06-18 21:41:19,141 | DEBUG   | inkcut | Starting plugin 'inkcut.monitor'
+2022-06-18 21:41:19,160 | INFO    | inkcut | Loading plugin inkcut.device
+2022-06-18 21:41:19,222 | INFO    | inkcut | Loading plugin inkcut.console
+2022-06-18 21:41:19,466 | DEBUG   | inkcut | Updating dock items: [<inkcut.job.view.GraphicDockItem object at 0x7f327e80dd80>, <inkcut.job.view.MaterialDockItem object at 0x7f327e176200>, <inkcut.job.view.WeedlinesDockItem object at 0x7f327dff1a40>, <inkcut.job.view.LayersDockItem object at 0x7f327dff2b00>, <inkcut.job.view.JobHistoryDockItem object at 0x7f327dff3180>, <inkcut.joystick.view.JoystickDockItem object at 0x7f327dff3280>, <inkcut.preview.view.PreviewDockItem object at 0x7f327dff3580>, <inkcut.monitor.view.MonitorDockItem object at 0x7f327dfc4980>, <inkcut.device.view.DeviceProgressDockItem object at 0x7f329748ea80>, <inkcut.console.view.ConsoleDockItem object at 0x7f327d64a100>]
+2022-06-18 21:41:19,491 | DEBUG   | inkcut | Updating settings pages: [<inkcut.ui.extensions.SettingsPage object at 0x7f3296dbd880>, <inkcut.ui.extensions.SettingsPage object at 0x7f3284273000>, <inkcut.ui.extensions.SettingsPage object at 0x7f3284272a80>]
+2022-06-18 21:41:19,491 | DEBUG   | inkcut | Starting plugin 'inkcut.ui'
+2022-06-18 21:41:19,872 | DEBUG   | asyncio | Using selector: EpollSelector
+2022-06-18 21:41:19,877 | DEBUG   | asyncio | Using selector: EpollSelector
+2022-06-18 21:41:34,761 | INFO    | inkcut | Saving state due to change: {'type': 'request'}
+2022-06-18 21:41:34,762 | INFO    | inkcut | device | 
+2022-06-18 21:41:34,765 | INFO    | inkcut | {}
+2022-06-18 21:41:34,771 | INFO    | inkcut | Saving state due to change: {'type': 'request'}
+2022-06-18 21:41:36,781 | DEBUG   | inkcut | Settings page: {'type': 'create', 'object': <inkcut.ui.plugin.InkcutPlugin object at 0x7f329739f800>, 'name': 'settings_page', 'value': <inkcut.ui.extensions.SettingsPage object at 0x7f3284273000>}
+2022-06-18 21:41:38,644 | INFO    | inkcut | Saving state due to change: {'type': 'update', 'object': <inkcut.job.plugin.JobPlugin object at 0x7f3284273cc0>, 'name': 'units', 'oldvalue': 'in', 'value': 'cm'}
+2022-06-18 21:41:38,651 | INFO    | inkcut | {'type': 'container', 'name': 'size', 'object': <inkcut.job.models.Material object at 0x7f3298266300>, 'value': [1800.0, 2700.0], 'operation': '__setitem__', 'olditem': 1800.0, 'newitem': 1800.0, 'index': 0}
+2022-06-18 21:41:38,664 | INFO    | inkcut | Saving state due to change: {'type': 'request'}
+2022-06-18 21:41:38,668 | INFO    | inkcut | {'type': 'container', 'name': 'size', 'object': <inkcut.job.models.Material object at 0x7f3298266300>, 'value': [1800.0, 2700.0], 'operation': '__setitem__', 'olditem': 2700.0, 'newitem': 2700.0, 'index': 1}
+2022-06-18 21:41:38,680 | INFO    | inkcut | Saving state due to change: {'type': 'request'}
+2022-06-18 21:41:38,690 | INFO    | inkcut | {'type': 'container', 'name': 'padding', 'object': <inkcut.job.models.Material object at 0x7f3298266300>, 'value': [10.0, 10.0, 10.0, 10.0], 'operation': '__setitem__', 'olditem': 10.0, 'newitem': 10.0, 'index': 0}
+2022-06-18 21:41:38,707 | INFO    | inkcut | Saving state due to change: {'type': 'request'}
+2022-06-18 21:41:38,711 | INFO    | inkcut | {'type': 'container', 'name': 'padding', 'object': <inkcut.job.models.Material object at 0x7f3298266300>, 'value': [10.0, 10.0, 10.0, 10.0], 'operation': '__setitem__', 'olditem': 10.0, 'newitem': 10.0, 'index': 1}
+2022-06-18 21:41:38,719 | INFO    | inkcut | Saving state due to change: {'type': 'request'}
+2022-06-18 21:41:38,722 | INFO    | inkcut | {'type': 'container', 'name': 'padding', 'object': <inkcut.job.models.Material object at 0x7f3298266300>, 'value': [10.0, 10.0, 10.0, 10.0], 'operation': '__setitem__', 'olditem': 10.0, 'newitem': 10.0, 'index': 2}
+2022-06-18 21:41:38,729 | INFO    | inkcut | Saving state due to change: {'type': 'request'}
+2022-06-18 21:41:38,731 | INFO    | inkcut | {'type': 'container', 'name': 'padding', 'object': <inkcut.job.models.Material object at 0x7f3298266300>, 'value': [10.0, 10.0, 10.0, 10.0], 'operation': '__setitem__', 'olditem': 10.0, 'newitem': 10.0, 'index': 3}
+2022-06-18 21:41:38,737 | INFO    | inkcut | Saving state due to change: {'type': 'request'}
+2022-06-18 21:41:41,041 | INFO    | inkcut | Saving state due to change: {'type': 'update', 'object': <inkcut.job.plugin.JobPlugin object at 0x7f3284273cc0>, 'name': 'units', 'oldvalue': 'cm', 'value': 'mm'}
+2022-06-18 21:41:41,044 | INFO    | inkcut | {'type': 'container', 'name': 'padding', 'object': <inkcut.job.models.Material object at 0x7f3298266300>, 'value': [10.0, 10.0, 10.0, 10.0], 'operation': '__setitem__', 'olditem': 10.0, 'newitem': 10.0, 'index': 0}
+2022-06-18 21:41:41,048 | INFO    | inkcut | Saving state due to change: {'type': 'request'}
+2022-06-18 21:41:41,049 | INFO    | inkcut | {'type': 'container', 'name': 'padding', 'object': <inkcut.job.models.Material object at 0x7f3298266300>, 'value': [10.0, 10.0, 10.0, 10.0], 'operation': '__setitem__', 'olditem': 10.0, 'newitem': 10.0, 'index': 2}
+2022-06-18 21:41:41,053 | INFO    | inkcut | Saving state due to change: {'type': 'request'}
+2022-06-18 21:41:41,055 | INFO    | inkcut | {'type': 'container', 'name': 'padding', 'object': <inkcut.job.models.Material object at 0x7f3298266300>, 'value': [10.0, 10.0, 10.0, 10.0], 'operation': '__setitem__', 'olditem': 10.0, 'newitem': 10.0, 'index': 1}
+2022-06-18 21:41:41,058 | INFO    | inkcut | Saving state due to change: {'type': 'request'}
+2022-06-18 21:41:41,059 | INFO    | inkcut | {'type': 'container', 'name': 'padding', 'object': <inkcut.job.models.Material object at 0x7f3298266300>, 'value': [10.0, 10.0, 10.0, 10.0], 'operation': '__setitem__', 'olditem': 10.0, 'newitem': 10.0, 'index': 3}
+2022-06-18 21:41:41,065 | INFO    | inkcut | Saving state due to change: {'type': 'request'}
+2022-06-18 21:41:41,068 | INFO    | inkcut | {'type': 'container', 'name': 'size', 'object': <inkcut.job.models.Material object at 0x7f3298266300>, 'value': [1800.0, 2700.0], 'operation': '__setitem__', 'olditem': 1800.0, 'newitem': 1800.0, 'index': 0}
+2022-06-18 21:41:41,076 | INFO    | inkcut | Saving state due to change: {'type': 'request'}
+2022-06-18 21:41:41,078 | INFO    | inkcut | {'type': 'container', 'name': 'size', 'object': <inkcut.job.models.Material object at 0x7f3298266300>, 'value': [1800.0, 2700.0], 'operation': '__setitem__', 'olditem': 2700.0, 'newitem': 2700.0, 'index': 1}
+2022-06-18 21:41:41,084 | INFO    | inkcut | Saving state due to change: {'type': 'request'}
+2022-06-18 21:41:45,618 | DEBUG   | inkcut | Settings page: {'type': 'update', 'object': <inkcut.ui.plugin.InkcutPlugin object at 0x7f329739f800>, 'name': 'settings_page', 'oldvalue': <inkcut.ui.extensions.SettingsPage object at 0x7f3284273000>, 'value': <inkcut.ui.extensions.SettingsPage object at 0x7f3284272a80>}
+2022-06-18 21:41:45,993 | DEBUG   | inkcut | Settings page: {'type': 'update', 'object': <inkcut.ui.plugin.InkcutPlugin object at 0x7f329739f800>, 'name': 'settings_page', 'oldvalue': <inkcut.ui.extensions.SettingsPage object at 0x7f3284272a80>, 'value': <inkcut.ui.extensions.SettingsPage object at 0x7f3296dbd880>}
+2022-06-18 21:41:49,651 | INFO    | inkcut | Saving state due to change: {'type': 'update', 'object': <inkcut.ui.plugin.InkcutPlugin object at 0x7f329739f800>, 'name': 'dock_style', 'oldvalue': 'vs-2010', 'value': 'system'}
+2022-06-18 21:42:12,881 | INFO    | inkcut | Saving state due to change: {'type': 'request'}
+2022-06-18 21:42:12,883 | INFO    | inkcut | {}
+2022-06-18 21:42:12,887 | INFO    | inkcut | Saving state due to change: {'type': 'request'}
+2022-06-18 21:42:20,165 | INFO    | inkcut | ========================================
+2022-06-18 21:42:20,165 | INFO    | inkcut | Inkcut exited cleanly
+2022-06-18 21:42:20,165 | INFO    | inkcut | ========================================
+2022-07-30 14:38:12,013 | INFO    | inkcut | ========================================
+2022-07-30 14:38:12,013 | INFO    | inkcut | Inkcut launched
+2022-07-30 14:38:12,013 | INFO    | inkcut | Version: 2.1.3
+2022-07-30 14:38:12,013 | INFO    | inkcut | Python: 3.10.4 (main, Apr  2 2022, 09:04:19) [GCC 11.2.0]
+2022-07-30 14:38:12,013 | INFO    | inkcut | System: uname_result(system='Linux', node='fablab-pc09', release='5.15.0-39-generic', version='#42-Ubuntu SMP Thu Jun 9 23:42:32 UTC 2022', machine='x86_64')
+2022-07-30 14:38:12,013 | INFO    | inkcut | Executable: /usr/bin/python3
+2022-07-30 14:38:12,013 | INFO    | inkcut | Args: ['/home/fablab/.local/bin/inkcut']
+2022-07-30 14:38:12,201 | INFO    | inkcut | Qt: 5.15.3 Api:
+2022-07-30 14:38:12,201 | INFO    | inkcut | ========================================
+2022-07-30 14:38:15,048 | DEBUG   | inkcut | Starting plugin 'inkcut.core'
+2022-07-30 14:38:15,048 | DEBUG   | inkcut | Inkcut loaded.
+2022-07-30 14:38:15,068 | DEBUG   | inkcut | CLI | Commands loaded
+2022-07-30 14:38:15,068 | DEBUG   | inkcut | CLI | No cli command was given.
+2022-07-30 14:38:15,098 | WARNING | inkcut | Setting locale: de_DE
+2022-07-30 14:38:16,663 | DEBUG   | inkcut | CLI | Commands loaded
+2022-07-30 14:38:16,664 | DEBUG   | inkcut | CLI | No cli command was given.
+2022-07-30 14:38:16,675 | INFO    | inkcut | Loading plugin inkcut.job
+2022-07-30 14:38:16,680 | DEBUG   | inkcut | Starting plugin 'inkcut.job'
+2022-07-30 14:38:16,697 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Material object at 0x7ff95992cb40>.size = [1800.0, 2700.0]'
+2022-07-30 14:38:16,719 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Material object at 0x7ff95992cb40>.padding = [10.0, 10.0, 10.0, 10.0]'
+2022-07-30 14:38:16,720 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Material object at 0x7ff95992cb40>.name = '
+2022-07-30 14:38:16,720 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Material object at 0x7ff95992cb40>.color = #000000'
+2022-07-30 14:38:16,720 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Material object at 0x7ff95992cb40>.is_roll = False'
+2022-07-30 14:38:16,720 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Material object at 0x7ff95992cb40>.used = [0.0, 0.0]'
+2022-07-30 14:38:16,720 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Material object at 0x7ff95992cb40>.cost = 1.0'
+2022-07-30 14:38:16,720 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Material object at 0x7ff95992cb40>.use_force = False'
+2022-07-30 14:38:16,720 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Material object at 0x7ff95992cb40>.use_speed = False'
+2022-07-30 14:38:16,720 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Material object at 0x7ff95992cb40>.force = 10'
+2022-07-30 14:38:16,720 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Material object at 0x7ff95992cb40>.speed = 10'
+2022-07-30 14:38:16,721 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7ff95992d2c0>.status = staged'
+2022-07-30 14:38:16,721 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7ff95992d2c0>.created = 2022-06-18 21:32:10.721349'
+2022-07-30 14:38:16,721 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7ff95992d2c0>.started = None'
+2022-07-30 14:38:16,721 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7ff95992d2c0>.ended = None'
+2022-07-30 14:38:16,721 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7ff95992d2c0>.progress = 0'
+2022-07-30 14:38:16,721 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7ff95992d2c0>.data = '
+2022-07-30 14:38:16,721 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7ff95992d2c0>.count = 0'
+2022-07-30 14:38:16,721 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7ff95992d2c0>.speed = 0.0'
+2022-07-30 14:38:16,721 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7ff95992d2c0>.length = 0.0'
+2022-07-30 14:38:16,721 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7ff95992d2c0>.duration = 0:00:00'
+2022-07-30 14:38:16,721 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7ff95992d2c0>.units = in'
+2022-07-30 14:38:16,721 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7ff95992d2c0>.auto_approve = False'
+2022-07-30 14:38:16,722 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Job object at 0x7ff97c1a1040>.material = <inkcut.job.models.Material object at 0x7ff95992cb40>'
+2022-07-30 14:38:16,722 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Job object at 0x7ff97c1a1040>.document = '
+2022-07-30 14:38:16,722 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Job object at 0x7ff97c1a1040>.document_kwargs = {}'
+2022-07-30 14:38:16,722 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Job object at 0x7ff97c1a1040>.info = <inkcut.job.models.JobInfo object at 0x7ff95992d2c0>'
+2022-07-30 14:38:16,722 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Job object at 0x7ff97c1a1040>.scale = [1.0, 1.0]'
+2022-07-30 14:38:16,722 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Job object at 0x7ff97c1a1040>.auto_scale = False'
+2022-07-30 14:38:16,722 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Job object at 0x7ff97c1a1040>.lock_scale = True'
+2022-07-30 14:38:16,723 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Job object at 0x7ff97c1a1040>.mirror = [False, False]'
+2022-07-30 14:38:16,723 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Job object at 0x7ff97c1a1040>.align_center = [False, False]'
+2022-07-30 14:38:16,723 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Job object at 0x7ff97c1a1040>.rotation = 0.0'
+2022-07-30 14:38:16,723 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Job object at 0x7ff97c1a1040>.auto_rotate = False'
+2022-07-30 14:38:16,724 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Job object at 0x7ff97c1a1040>.copies = 1'
+2022-07-30 14:38:16,724 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Job object at 0x7ff97c1a1040>.auto_copies = False'
+2022-07-30 14:38:16,724 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Job object at 0x7ff97c1a1040>.copy_spacing = [10.0, 10.0]'
+2022-07-30 14:38:16,724 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Job object at 0x7ff97c1a1040>.copy_weedline = False'
+2022-07-30 14:38:16,724 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Job object at 0x7ff97c1a1040>.copy_weedline_padding = [10.0, 10.0, 10.0, 10.0]'
+2022-07-30 14:38:16,725 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Job object at 0x7ff97c1a1040>.plot_weedline = False'
+2022-07-30 14:38:16,725 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Job object at 0x7ff97c1a1040>.plot_weedline_padding = [10.0, 10.0, 10.0, 10.0]'
+2022-07-30 14:38:16,725 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Job object at 0x7ff97c1a1040>.order = Normal'
+2022-07-30 14:38:16,725 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Job object at 0x7ff97c1a1040>.feed_to_end = False'
+2022-07-30 14:38:16,725 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Job object at 0x7ff97c1a1040>.feed_after = 0.0'
+2022-07-30 14:38:16,726 | INFO    | inkcut | {'type': 'create', 'object': <inkcut.job.plugin.JobPlugin object at 0x7ff96e635c40>, 'name': 'job', 'value': <inkcut.job.models.Job object at 0x7ff959b0e600>}
+2022-07-30 14:38:17,472 | DEBUG   | inkcut | Starting plugin 'inkcut.preview'
+2022-07-30 14:38:17,571 | DEBUG   | inkcut | Starting plugin 'inkcut.device'
+2022-07-30 14:38:17,580 | DEBUG   | inkcut | Restoring state '<inkcut.core.models.AreaBase object at 0x7ff953fb5040>.size = [2125.98425196, 1771.6535433000001]'
+2022-07-30 14:38:17,580 | DEBUG   | inkcut | Restoring state '<inkcut.core.models.AreaBase object at 0x7ff953fb5040>.padding = [10.0, 10.0, 10.0, 10.0]'
+2022-07-30 14:38:17,585 | DEBUG   | inkcut | Restoring state '<inkcut.device.transports.printer.plugin.CupsPrinterConfig object at 0x7ff953fb5ac0>.printer = '
+2022-07-30 14:38:17,585 | DEBUG   | inkcut | Restoring state '<inkcut.device.protocols.hpgl.HPGLProtocol object at 0x7ff953fb5a40>.declaration = <inkcut.device.extensions.DeviceProtocol object at 0x7ff953fb5c80>'
+2022-07-30 14:38:17,586 | DEBUG   | inkcut | Restoring state '<inkcut.device.protocols.hpgl.HPGLProtocol object at 0x7ff953fb5a40>.config = <inkcut.core.models.Model object at 0x7ff953fc21c0>'
+2022-07-30 14:38:17,586 | DEBUG   | inkcut | Restoring state 'GS-24.declaration = <inkcut.device.extensions.DeviceTransport object at 0x7ff953fb4e00>'
+2022-07-30 14:38:17,586 | DEBUG   | inkcut | Restoring state 'GS-24.config = <inkcut.device.transports.printer.plugin.CupsPrinterConfig object at 0x7ff953fb5ac0>'
+2022-07-30 14:38:17,586 | DEBUG   | inkcut | Restoring state '.protocol = <inkcut.device.protocols.hpgl.HPGLProtocol object at 0x7ff953fb5a40>'
+2022-07-30 14:38:17,586 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7ff953fb5a00>.step_time = 35.0'
+2022-07-30 14:38:17,587 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7ff953fb5a00>.custom_rate = -1.0'
+2022-07-30 14:38:17,587 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7ff953fb5a00>.step_size = 3.5433070866'
+2022-07-30 14:38:17,587 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7ff953fb5a00>.interpolate = False'
+2022-07-30 14:38:17,587 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7ff953fb5a00>.sample_rate = 100'
+2022-07-30 14:38:17,587 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7ff953fb5a00>.rotation = 0'
+2022-07-30 14:38:17,587 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7ff953fb5a00>.swap_xy = False'
+2022-07-30 14:38:17,587 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7ff953fb5a00>.mirror_y = False'
+2022-07-30 14:38:17,587 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7ff953fb5a00>.mirror_x = False'
+2022-07-30 14:38:17,587 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7ff953fb5a00>.scale = [1.0, 1.0]'
+2022-07-30 14:38:17,587 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7ff953fb5a00>.quality_factor = 1.0'
+2022-07-30 14:38:17,587 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7ff953fb5a00>.speed = 4.0'
+2022-07-30 14:38:17,587 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7ff953fb5a00>.speed_units = in/s'
+2022-07-30 14:38:17,587 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7ff953fb5a00>.speed_enabled = False'
+2022-07-30 14:38:17,587 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7ff953fb5a00>.force = 40.0'
+2022-07-30 14:38:17,587 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7ff953fb5a00>.force_units = g'
+2022-07-30 14:38:17,587 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7ff953fb5a00>.force_enabled = False'
+2022-07-30 14:38:17,587 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7ff953fb5a00>.absolute = False'
+2022-07-30 14:38:17,587 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7ff953fb5a00>.spooled = False'
+2022-07-30 14:38:17,588 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7ff953fb5a00>.test_mode = False'
+2022-07-30 14:38:17,588 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7ff953fb5a00>.commands_before = '
+2022-07-30 14:38:17,588 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7ff953fb5a00>.commands_after = '
+2022-07-30 14:38:17,588 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7ff953fb5a00>.commands_connect = '
+2022-07-30 14:38:17,588 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7ff953fb5a00>.commands_disconnect = '
+2022-07-30 14:38:17,588 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.Device object at 0x7ff953fb4e40>.name = Roland CAMM-1 GS-24'
+2022-07-30 14:38:17,588 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.Device object at 0x7ff953fb4e40>.manufacturer = Roland'
+2022-07-30 14:38:17,588 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.Device object at 0x7ff953fb4e40>.model = CX-24'
+2022-07-30 14:38:17,588 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.Device object at 0x7ff953fb4e40>.custom = False'
+2022-07-30 14:38:17,588 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.Device object at 0x7ff953fb4e40>.area = <inkcut.core.models.AreaBase object at 0x7ff953fb5040>'
+2022-07-30 14:38:17,588 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.Device object at 0x7ff953fb4e40>.declaration = <inkcut.device.extensions.DeviceDriver object at 0x7ff953fb51c0>'
+2022-07-30 14:38:17,588 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.Device object at 0x7ff953fb4e40>.filters = []'
+2022-07-30 14:38:17,588 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.Device object at 0x7ff953fb4e40>.connection = '
+2022-07-30 14:38:17,588 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.Device object at 0x7ff953fb4e40>.jobs = []'
+2022-07-30 14:38:17,588 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.Device object at 0x7ff953fb4e40>.queue = []'
+2022-07-30 14:38:17,588 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.Device object at 0x7ff953fb4e40>.config = <inkcut.device.plugin.DeviceConfig object at 0x7ff953fb5a00>'
+2022-07-30 14:38:17,588 | INFO    | inkcut | {}
+2022-07-30 14:38:17,624 | INFO    | inkcut | Saving state due to change: {'type': 'request'}
+2022-07-30 14:38:17,626 | WARNING | inkcut | Plugin inkcut.device state restored from: /home/fablab/.config/inkcut/inkcut.device.json
+2022-07-30 14:38:17,627 | INFO    | inkcut | Saving state due to change: {'type': 'request'}
+2022-07-30 14:38:17,628 | INFO    | inkcut | {'type': 'update', 'object': <inkcut.job.plugin.JobPlugin object at 0x7ff96e635c40>, 'name': 'job', 'oldvalue': <inkcut.job.models.Job object at 0x7ff959b0e600>, 'value': <inkcut.job.models.Job object at 0x7ff97c1a1040>}
+2022-07-30 14:38:17,629 | INFO    | inkcut | Saving state due to change: {'type': 'request'}
+2022-07-30 14:38:17,630 | WARNING | inkcut | Plugin inkcut.job state restored from: /home/fablab/.config/inkcut/inkcut.job.json
+2022-07-30 14:38:17,790 | INFO    | inkcut | Loading plugin inkcut.job
+2022-07-30 14:38:17,790 | INFO    | inkcut | Loading plugin inkcut.job
+2022-07-30 14:38:17,791 | INFO    | inkcut | Loading plugin inkcut.job
+2022-07-30 14:38:17,791 | INFO    | inkcut | Loading plugin inkcut.job
+2022-07-30 14:38:17,791 | INFO    | inkcut | Loading plugin inkcut.preview
+2022-07-30 14:38:17,797 | INFO    | inkcut | Loading plugin inkcut.device
+2022-07-30 14:38:17,853 | INFO    | inkcut | Loading plugin inkcut.joystick
+2022-07-30 14:38:17,853 | DEBUG   | inkcut | Starting plugin 'inkcut.joystick'
+2022-07-30 14:38:17,892 | INFO    | inkcut | Loading plugin inkcut.monitor
+2022-07-30 14:38:17,892 | DEBUG   | inkcut | Starting plugin 'inkcut.monitor'
+2022-07-30 14:38:17,909 | INFO    | inkcut | Loading plugin inkcut.console
+2022-07-30 14:38:19,774 | DEBUG   | inkcut | Updating dock items: [<inkcut.job.view.GraphicDockItem object at 0x7ff959c3ca40>, <inkcut.job.view.MaterialDockItem object at 0x7ff959b0fa80>, <inkcut.job.view.WeedlinesDockItem object at 0x7ff953fe95c0>, <inkcut.job.view.LayersDockItem object at 0x7ff953fea740>, <inkcut.job.view.JobHistoryDockItem object at 0x7ff953fe91c0>, <inkcut.preview.view.PreviewDockItem object at 0x7ff953697e40>, <inkcut.device.view.DeviceProgressDockItem object at 0x7ff95367ce80>, <inkcut.joystick.view.JoystickDockItem object at 0x7ff953fb6a40>, <inkcut.monitor.view.MonitorDockItem object at 0x7ff9536cfac0>, <inkcut.console.view.ConsoleDockItem object at 0x7ff95352f880>]
+2022-07-30 14:38:19,827 | DEBUG   | inkcut | Updating settings pages: [<inkcut.ui.extensions.SettingsPage object at 0x7ff96e6c1d80>, <inkcut.ui.extensions.SettingsPage object at 0x7ff959b06f00>, <inkcut.ui.extensions.SettingsPage object at 0x7ff959b07400>]
+2022-07-30 14:38:19,827 | DEBUG   | inkcut | Starting plugin 'inkcut.ui'
+2022-07-30 14:38:19,831 | WARNING | inkcut | Plugin inkcut.ui state restored from: /home/fablab/.config/inkcut/inkcut.ui.json
+2022-07-30 14:38:21,156 | DEBUG   | asyncio | Using selector: EpollSelector
+2022-07-30 14:38:21,199 | DEBUG   | asyncio | Using selector: EpollSelector
+2022-07-30 14:38:40,340 | INFO    | inkcut | Saving state due to change: {'type': 'request'}
+2022-07-30 14:38:40,342 | INFO    | inkcut | device | 
+2022-07-30 14:38:40,349 | INFO    | inkcut | {}
+2022-07-30 14:38:40,364 | INFO    | inkcut | Saving state due to change: {'type': 'request'}
+2022-07-30 14:38:46,966 | INFO    | inkcut | ========================================
+2022-07-30 14:38:46,966 | INFO    | inkcut | Inkcut exited cleanly
+2022-07-30 14:38:46,966 | INFO    | inkcut | ========================================
+2022-12-01 19:44:17,793 | INFO    | inkcut | ========================================
+2022-12-01 19:44:17,801 | INFO    | inkcut | Inkcut launched
+2022-12-01 19:44:17,801 | INFO    | inkcut | Version: 2.1.5
+2022-12-01 19:44:17,801 | INFO    | inkcut | Python: 3.10.6 (main, Nov  2 2022, 18:53:38) [GCC 11.3.0]
+2022-12-01 19:44:17,801 | INFO    | inkcut | System: uname_result(system='Linux', node='fablab-pc10', release='5.15.0-53-generic', version='#59-Ubuntu SMP Mon Oct 17 18:53:30 UTC 2022', machine='x86_64')
+2022-12-01 19:44:17,801 | INFO    | inkcut | Executable: /usr/bin/python3
+2022-12-01 19:44:17,801 | INFO    | inkcut | Args: ['/home/fablab/.local/bin/inkcut', 'open', '-', '--nodes', '/*/*[3]/*']
+2022-12-01 19:44:17,980 | INFO    | inkcut | Qt: 5.15.3 Api:
+2022-12-01 19:44:17,980 | INFO    | inkcut | ========================================
+2022-12-01 19:44:21,140 | DEBUG   | inkcut | Starting plugin 'inkcut.core'
+2022-12-01 19:44:21,140 | DEBUG   | inkcut | Inkcut loaded.
+2022-12-01 19:44:21,172 | DEBUG   | inkcut | CLI | Commands loaded
+2022-12-01 19:44:21,222 | WARNING | inkcut | Setting locale: de_DE
+2022-12-01 19:44:23,129 | DEBUG   | inkcut | CLI | Commands loaded
+2022-12-01 19:44:23,138 | INFO    | inkcut | Loading plugin inkcut.joystick
+2022-12-01 19:44:23,141 | DEBUG   | inkcut | Starting plugin 'inkcut.joystick'
+2022-12-01 19:44:23,275 | INFO    | inkcut | Loading plugin inkcut.preview
+2022-12-01 19:44:24,178 | DEBUG   | inkcut | Starting plugin 'inkcut.preview'
+2022-12-01 19:44:24,237 | INFO    | inkcut | Loading plugin inkcut.monitor
+2022-12-01 19:44:24,243 | DEBUG   | inkcut | Starting plugin 'inkcut.monitor'
+2022-12-01 19:44:24,330 | INFO    | inkcut | Loading plugin inkcut.job
+2022-12-01 19:44:24,346 | DEBUG   | inkcut | Starting plugin 'inkcut.job'
+2022-12-01 19:44:24,353 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Material object at 0x7f448e8b2740>.size = [1800.0, 2700.0]'
+2022-12-01 19:44:24,353 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Material object at 0x7f448e8b2740>.padding = [10.0, 10.0, 10.0, 10.0]'
+2022-12-01 19:44:24,353 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Material object at 0x7f448e8b2740>.name = '
+2022-12-01 19:44:24,353 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Material object at 0x7f448e8b2740>.color = #000000'
+2022-12-01 19:44:24,353 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Material object at 0x7f448e8b2740>.is_roll = False'
+2022-12-01 19:44:24,353 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Material object at 0x7f448e8b2740>.used = [0.0, 0.0]'
+2022-12-01 19:44:24,353 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Material object at 0x7f448e8b2740>.cost = 1.0'
+2022-12-01 19:44:24,353 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Material object at 0x7f448e8b2740>.use_force = False'
+2022-12-01 19:44:24,353 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Material object at 0x7f448e8b2740>.use_speed = False'
+2022-12-01 19:44:24,353 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Material object at 0x7f448e8b2740>.force = 10'
+2022-12-01 19:44:24,353 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Material object at 0x7f448e8b2740>.speed = 10'
+2022-12-01 19:44:24,353 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7f4484506e40>.status = staged'
+2022-12-01 19:44:24,354 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7f4484506e40>.created = 2022-06-18 21:32:10.721349'
+2022-12-01 19:44:24,354 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7f4484506e40>.started = None'
+2022-12-01 19:44:24,354 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7f4484506e40>.ended = None'
+2022-12-01 19:44:24,354 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7f4484506e40>.progress = 0'
+2022-12-01 19:44:24,354 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7f4484506e40>.data = '
+2022-12-01 19:44:24,354 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7f4484506e40>.count = 0'
+2022-12-01 19:44:24,354 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7f4484506e40>.speed = 0.0'
+2022-12-01 19:44:24,354 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7f4484506e40>.length = 0.0'
+2022-12-01 19:44:24,354 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7f4484506e40>.duration = 0:00:00'
+2022-12-01 19:44:24,354 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7f4484506e40>.units = in'
+2022-12-01 19:44:24,354 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7f4484506e40>.auto_approve = False'
+2022-12-01 19:44:24,354 | DEBUG   | inkcut | Restoring state 'Empty document.material = <inkcut.job.models.Material object at 0x7f448e8b2740>'
+2022-12-01 19:44:24,354 | DEBUG   | inkcut | Restoring state 'Empty document.document = '
+2022-12-01 19:44:24,354 | DEBUG   | inkcut | Restoring state 'Empty document.document_kwargs = {}'
+2022-12-01 19:44:24,354 | DEBUG   | inkcut | Restoring state 'Empty document.info = <inkcut.job.models.JobInfo object at 0x7f4484506e40>'
+2022-12-01 19:44:24,354 | DEBUG   | inkcut | Restoring state 'Empty document.scale = [1.0, 1.0]'
+2022-12-01 19:44:24,355 | DEBUG   | inkcut | Restoring state 'Empty document.auto_scale = False'
+2022-12-01 19:44:24,355 | DEBUG   | inkcut | Restoring state 'Empty document.lock_scale = True'
+2022-12-01 19:44:24,355 | DEBUG   | inkcut | Restoring state 'Empty document.mirror = [False, False]'
+2022-12-01 19:44:24,355 | DEBUG   | inkcut | Restoring state 'Empty document.align_center = [False, False]'
+2022-12-01 19:44:24,355 | DEBUG   | inkcut | Restoring state 'Empty document.rotation = 0.0'
+2022-12-01 19:44:24,355 | DEBUG   | inkcut | Restoring state 'Empty document.auto_rotate = False'
+2022-12-01 19:44:24,355 | DEBUG   | inkcut | Restoring state 'Empty document.copies = 1'
+2022-12-01 19:44:24,355 | DEBUG   | inkcut | Restoring state 'Empty document.auto_copies = False'
+2022-12-01 19:44:24,355 | DEBUG   | inkcut | Restoring state 'Empty document.copy_spacing = [10.0, 10.0]'
+2022-12-01 19:44:24,355 | DEBUG   | inkcut | Restoring state 'Empty document.copy_weedline = False'
+2022-12-01 19:44:24,355 | DEBUG   | inkcut | Restoring state 'Empty document.copy_weedline_padding = [10.0, 10.0, 10.0, 10.0]'
+2022-12-01 19:44:24,355 | DEBUG   | inkcut | Restoring state 'Empty document.plot_weedline = False'
+2022-12-01 19:44:24,355 | DEBUG   | inkcut | Restoring state 'Empty document.plot_weedline_padding = [10.0, 10.0, 10.0, 10.0]'
+2022-12-01 19:44:24,355 | DEBUG   | inkcut | Restoring state 'Empty document.order = Normal'
+2022-12-01 19:44:24,355 | DEBUG   | inkcut | Restoring state 'Empty document.feed_to_end = False'
+2022-12-01 19:44:24,355 | DEBUG   | inkcut | Restoring state 'Empty document.feed_after = 0.0'
+2022-12-01 19:44:24,355 | INFO    | inkcut | {'type': 'create', 'object': <inkcut.job.plugin.JobPlugin object at 0x7f44856ebd40>, 'name': 'job', 'value': <inkcut.job.models.Job object at 0x7f4484243f00>}
+2022-12-01 19:44:24,766 | DEBUG   | inkcut | Starting plugin 'inkcut.device'
+2022-12-01 19:44:24,767 | DEBUG   | inkcut | Restoring state '<inkcut.core.models.AreaBase object at 0x7f4462f32bc0>.size = [2125.98425196, 1771.6535433000001]'
+2022-12-01 19:44:24,767 | DEBUG   | inkcut | Restoring state '<inkcut.core.models.AreaBase object at 0x7f4462f32bc0>.padding = [10.0, 10.0, 10.0, 10.0]'
+2022-12-01 19:44:24,779 | DEBUG   | inkcut | Restoring state '<inkcut.device.transports.printer.plugin.CupsPrinterConfig object at 0x7f4462d7e7c0>.printer = GS-24'
+2022-12-01 19:44:24,780 | DEBUG   | inkcut | Restoring state '<inkcut.device.protocols.hpgl.HPGLProtocol object at 0x7f4462d7e740>.declaration = <inkcut.device.extensions.DeviceProtocol object at 0x7f4462d7f440>'
+2022-12-01 19:44:24,780 | DEBUG   | inkcut | Restoring state '<inkcut.device.protocols.hpgl.HPGLProtocol object at 0x7f4462d7e740>.config = <inkcut.core.models.Model object at 0x7f4462f4be40>'
+2022-12-01 19:44:24,780 | DEBUG   | inkcut | Restoring state 'GS-24.declaration = <inkcut.device.extensions.DeviceTransport object at 0x7f4462d7e780>'
+2022-12-01 19:44:24,780 | DEBUG   | inkcut | Restoring state 'GS-24.config = <inkcut.device.transports.printer.plugin.CupsPrinterConfig object at 0x7f4462d7e7c0>'
+2022-12-01 19:44:24,780 | DEBUG   | inkcut | Restoring state 'GS-24.protocol = <inkcut.device.protocols.hpgl.HPGLProtocol object at 0x7f4462d7e740>'
+2022-12-01 19:44:24,781 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f448e7d1640>.step_time = 35.0'
+2022-12-01 19:44:24,781 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f448e7d1640>.custom_rate = -1.0'
+2022-12-01 19:44:24,781 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f448e7d1640>.step_size = 3.5433070866'
+2022-12-01 19:44:24,781 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f448e7d1640>.interpolate = False'
+2022-12-01 19:44:24,781 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f448e7d1640>.sample_rate = 100'
+2022-12-01 19:44:24,781 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f448e7d1640>.rotation = 0'
+2022-12-01 19:44:24,781 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f448e7d1640>.swap_xy = False'
+2022-12-01 19:44:24,781 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f448e7d1640>.mirror_y = False'
+2022-12-01 19:44:24,781 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f448e7d1640>.mirror_x = False'
+2022-12-01 19:44:24,781 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f448e7d1640>.scale = [1.0, 1.0]'
+2022-12-01 19:44:24,781 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f448e7d1640>.quality_factor = 1.0'
+2022-12-01 19:44:24,781 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f448e7d1640>.speed = 4.0'
+2022-12-01 19:44:24,781 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f448e7d1640>.speed_units = in/s'
+2022-12-01 19:44:24,781 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f448e7d1640>.speed_enabled = False'
+2022-12-01 19:44:24,781 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f448e7d1640>.force = 40.0'
+2022-12-01 19:44:24,781 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f448e7d1640>.force_units = g'
+2022-12-01 19:44:24,781 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f448e7d1640>.force_enabled = False'
+2022-12-01 19:44:24,781 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f448e7d1640>.absolute = False'
+2022-12-01 19:44:24,782 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f448e7d1640>.spooled = False'
+2022-12-01 19:44:24,782 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f448e7d1640>.test_mode = False'
+2022-12-01 19:44:24,782 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f448e7d1640>.commands_before = '
+2022-12-01 19:44:24,782 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f448e7d1640>.commands_after = '
+2022-12-01 19:44:24,782 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f448e7d1640>.commands_connect = '
+2022-12-01 19:44:24,782 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f448e7d1640>.commands_disconnect = '
+2022-12-01 19:44:24,782 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.Device object at 0x7f4468155f40>.name = Roland CAMM-1 GS-24'
+2022-12-01 19:44:24,782 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.Device object at 0x7f4468155f40>.manufacturer = Roland'
+2022-12-01 19:44:24,782 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.Device object at 0x7f4468155f40>.model = CX-24'
+2022-12-01 19:44:24,782 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.Device object at 0x7f4468155f40>.custom = False'
+2022-12-01 19:44:24,782 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.Device object at 0x7f4468155f40>.area = <inkcut.core.models.AreaBase object at 0x7f4462f32bc0>'
+2022-12-01 19:44:24,782 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.Device object at 0x7f4468155f40>.declaration = <inkcut.device.extensions.DeviceDriver object at 0x7f448e7ce340>'
+2022-12-01 19:44:24,782 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.Device object at 0x7f4468155f40>.filters = []'
+2022-12-01 19:44:24,782 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.Device object at 0x7f4468155f40>.connection = GS-24'
+2022-12-01 19:44:24,782 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.Device object at 0x7f4468155f40>.jobs = []'
+2022-12-01 19:44:24,782 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.Device object at 0x7f4468155f40>.queue = []'
+2022-12-01 19:44:24,782 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.Device object at 0x7f4468155f40>.config = <inkcut.device.plugin.DeviceConfig object at 0x7f448e7d1640>'
+2022-12-01 19:44:24,782 | INFO    | inkcut | {}
+2022-12-01 19:44:24,805 | INFO    | inkcut | Saving state due to change: {'type': 'request'}
+2022-12-01 19:44:24,807 | WARNING | inkcut | Plugin inkcut.device state restored from: /home/fablab/.config/inkcut/inkcut.device.json
+2022-12-01 19:44:24,807 | INFO    | inkcut | Saving state due to change: {'type': 'request'}
+2022-12-01 19:44:24,808 | INFO    | inkcut | {'type': 'update', 'object': <inkcut.job.plugin.JobPlugin object at 0x7f44856ebd40>, 'name': 'job', 'oldvalue': <inkcut.job.models.Job object at 0x7f4484243f00>, 'value': <inkcut.job.models.Job object at 0x7f448426a380>}
+2022-12-01 19:44:24,808 | INFO    | inkcut | Saving state due to change: {'type': 'request'}
+2022-12-01 19:44:24,809 | WARNING | inkcut | Plugin inkcut.job state restored from: /home/fablab/.config/inkcut/inkcut.job.json
+2022-12-01 19:44:25,272 | INFO    | inkcut | Loading plugin inkcut.job
+2022-12-01 19:44:25,272 | INFO    | inkcut | Loading plugin inkcut.job
+2022-12-01 19:44:25,272 | INFO    | inkcut | Loading plugin inkcut.job
+2022-12-01 19:44:25,273 | INFO    | inkcut | Loading plugin inkcut.job
+2022-12-01 19:44:25,273 | INFO    | inkcut | Loading plugin inkcut.device
+2022-12-01 19:44:25,543 | INFO    | inkcut | Loading plugin inkcut.console
+2022-12-01 19:44:28,189 | DEBUG   | inkcut | Updating dock items: [<inkcut.joystick.view.JoystickDockItem object at 0x7f448422a700>, <inkcut.preview.view.PreviewDockItem object at 0x7f44856e3440>, <inkcut.monitor.view.MonitorDockItem object at 0x7f448450de40>, <inkcut.job.view.GraphicDockItem object at 0x7f4462f48740>, <inkcut.job.view.MaterialDockItem object at 0x7f448426b3c0>, <inkcut.job.view.WeedlinesDockItem object at 0x7f4484262600>, <inkcut.job.view.LayersDockItem object at 0x7f44623d1780>, <inkcut.job.view.JobHistoryDockItem object at 0x7f4462dbc640>, <inkcut.device.view.DeviceProgressDockItem object at 0x7f4462d77740>, <inkcut.console.view.ConsoleDockItem object at 0x7f4462e8af80>]
+2022-12-01 19:44:28,418 | DEBUG   | inkcut | Updating settings pages: [<inkcut.ui.extensions.SettingsPage object at 0x7f4484241640>, <inkcut.ui.extensions.SettingsPage object at 0x7f44842405c0>, <inkcut.ui.extensions.SettingsPage object at 0x7f44845405c0>]
+2022-12-01 19:44:28,418 | DEBUG   | inkcut | Starting plugin 'inkcut.ui'
+2022-12-01 19:44:28,423 | WARNING | inkcut | Plugin inkcut.ui state restored from: /home/fablab/.config/inkcut/inkcut.ui.json
+2022-12-01 19:44:30,063 | DEBUG   | asyncio | Using selector: EpollSelector
+2022-12-01 19:44:30,109 | DEBUG   | asyncio | Using selector: EpollSelector
+2022-12-01 19:44:30,329 | DEBUG   | inkcut | CLI | Runinng command 'open' with args: Namespace(path='-', nodes=['/*/*[3]/*'], cmd=<inkcut.cli.plugin.Command object at 0x7f448e7ce400>)
+2022-12-01 19:44:30,341 | DEBUG   | inkcut | Opening document from stdin...
+2022-12-01 19:44:30,341 | INFO    | inkcut | Opening -
+2022-12-01 19:44:30,352 | INFO    | inkcut | {'type': 'update', 'object': <inkcut.job.models.Job object at 0x7f448426a380>, 'name': 'model', 'oldvalue': None, 'value': <PyQt5.QtGui.QPainterPath object at 0x7f44603a62d0>}
+2022-12-01 19:44:30,358 | INFO    | inkcut | Saving state due to change: {'type': 'request'}
+2022-12-01 19:44:30,475 | INFO    | inkcut | ========================================
+2022-12-01 19:44:30,475 | INFO    | inkcut | Inkcut exited cleanly
+2022-12-01 19:44:30,475 | INFO    | inkcut | ========================================
+2022-12-03 03:16:15,390 | INFO    | inkcut | ========================================
+2022-12-03 03:16:15,397 | INFO    | inkcut | Inkcut launched
+2022-12-03 03:16:15,397 | INFO    | inkcut | Version: 2.1.5
+2022-12-03 03:16:15,397 | INFO    | inkcut | Python: 3.10.6 (main, Nov  2 2022, 18:53:38) [GCC 11.3.0]
+2022-12-03 03:16:15,397 | INFO    | inkcut | System: uname_result(system='Linux', node='musterclient', release='5.15.0-56-generic', version='#62-Ubuntu SMP Tue Nov 22 19:54:14 UTC 2022', machine='x86_64')
+2022-12-03 03:16:15,397 | INFO    | inkcut | Executable: /usr/bin/python3
+2022-12-03 03:16:15,398 | INFO    | inkcut | Args: ['/home/fablab/.local/bin/inkcut', 'open', '-', '--nodes', '/*/*[3]/*']
+2022-12-03 03:16:15,562 | INFO    | inkcut | Qt: 5.15.3 Api:
+2022-12-03 03:16:15,562 | INFO    | inkcut | ========================================
+2022-12-03 03:16:18,225 | DEBUG   | inkcut | Starting plugin 'inkcut.core'
+2022-12-03 03:16:18,226 | DEBUG   | inkcut | Inkcut loaded.
+2022-12-03 03:16:18,240 | DEBUG   | inkcut | CLI | Commands loaded
+2022-12-03 03:16:18,261 | WARNING | inkcut | Setting locale: de_DE
+2022-12-03 03:16:19,482 | DEBUG   | inkcut | CLI | Commands loaded
+2022-12-03 03:16:19,498 | INFO    | inkcut | Loading plugin inkcut.console
+2022-12-03 03:16:20,931 | INFO    | inkcut | Loading plugin inkcut.joystick
+2022-12-03 03:16:20,948 | DEBUG   | inkcut | Starting plugin 'inkcut.joystick'
+2022-12-03 03:16:21,030 | INFO    | inkcut | Loading plugin inkcut.preview
+2022-12-03 03:16:21,975 | DEBUG   | inkcut | Starting plugin 'inkcut.preview'
+2022-12-03 03:16:21,998 | INFO    | inkcut | Loading plugin inkcut.device
+2022-12-03 03:16:22,182 | DEBUG   | inkcut | Starting plugin 'inkcut.device'
+2022-12-03 03:16:22,186 | DEBUG   | inkcut | Restoring state '<inkcut.core.models.AreaBase object at 0x7f00d94da840>.size = [2125.98425196, 1771.6535433000001]'
+2022-12-03 03:16:22,186 | DEBUG   | inkcut | Restoring state '<inkcut.core.models.AreaBase object at 0x7f00d94da840>.padding = [10.0, 10.0, 10.0, 10.0]'
+2022-12-03 03:16:22,202 | DEBUG   | inkcut | Restoring state '<inkcut.device.transports.printer.plugin.CupsPrinterConfig object at 0x7f00d94db340>.printer = GS-24'
+2022-12-03 03:16:22,203 | DEBUG   | inkcut | Restoring state '<inkcut.device.protocols.hpgl.HPGLProtocol object at 0x7f00d94db480>.declaration = <inkcut.device.extensions.DeviceProtocol object at 0x7f00d94db4c0>'
+2022-12-03 03:16:22,203 | DEBUG   | inkcut | Restoring state '<inkcut.device.protocols.hpgl.HPGLProtocol object at 0x7f00d94db480>.config = <inkcut.core.models.Model object at 0x7f00d9523940>'
+2022-12-03 03:16:22,205 | DEBUG   | inkcut | Restoring state 'GS-24.declaration = <inkcut.device.extensions.DeviceTransport object at 0x7f00d94db2c0>'
+2022-12-03 03:16:22,205 | DEBUG   | inkcut | Restoring state 'GS-24.config = <inkcut.device.transports.printer.plugin.CupsPrinterConfig object at 0x7f00d94db340>'
+2022-12-03 03:16:22,205 | DEBUG   | inkcut | Restoring state 'GS-24.protocol = <inkcut.device.protocols.hpgl.HPGLProtocol object at 0x7f00d94db480>'
+2022-12-03 03:16:22,206 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f00d94db500>.step_time = 35.0'
+2022-12-03 03:16:22,206 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f00d94db500>.custom_rate = -1.0'
+2022-12-03 03:16:22,206 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f00d94db500>.step_size = 3.5433070866'
+2022-12-03 03:16:22,206 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f00d94db500>.interpolate = False'
+2022-12-03 03:16:22,207 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f00d94db500>.sample_rate = 100'
+2022-12-03 03:16:22,207 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f00d94db500>.rotation = 0'
+2022-12-03 03:16:22,207 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f00d94db500>.swap_xy = False'
+2022-12-03 03:16:22,207 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f00d94db500>.mirror_y = False'
+2022-12-03 03:16:22,207 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f00d94db500>.mirror_x = False'
+2022-12-03 03:16:22,207 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f00d94db500>.scale = [1.0, 1.0]'
+2022-12-03 03:16:22,207 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f00d94db500>.quality_factor = 1.0'
+2022-12-03 03:16:22,208 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f00d94db500>.speed = 4.0'
+2022-12-03 03:16:22,208 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f00d94db500>.speed_units = in/s'
+2022-12-03 03:16:22,208 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f00d94db500>.speed_enabled = False'
+2022-12-03 03:16:22,208 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f00d94db500>.force = 40.0'
+2022-12-03 03:16:22,208 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f00d94db500>.force_units = g'
+2022-12-03 03:16:22,208 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f00d94db500>.force_enabled = False'
+2022-12-03 03:16:22,208 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f00d94db500>.absolute = False'
+2022-12-03 03:16:22,209 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f00d94db500>.spooled = False'
+2022-12-03 03:16:22,209 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f00d94db500>.test_mode = False'
+2022-12-03 03:16:22,209 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f00d94db500>.commands_before = '
+2022-12-03 03:16:22,209 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f00d94db500>.commands_after = '
+2022-12-03 03:16:22,209 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f00d94db500>.commands_connect = '
+2022-12-03 03:16:22,209 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7f00d94db500>.commands_disconnect = '
+2022-12-03 03:16:22,209 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.Device object at 0x7f00d9523b00>.name = Roland CAMM-1 GS-24'
+2022-12-03 03:16:22,210 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.Device object at 0x7f00d9523b00>.manufacturer = Roland'
+2022-12-03 03:16:22,210 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.Device object at 0x7f00d9523b00>.model = CX-24'
+2022-12-03 03:16:22,210 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.Device object at 0x7f00d9523b00>.custom = False'
+2022-12-03 03:16:22,210 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.Device object at 0x7f00d9523b00>.area = <inkcut.core.models.AreaBase object at 0x7f00d94da840>'
+2022-12-03 03:16:22,210 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.Device object at 0x7f00d9523b00>.declaration = <inkcut.device.extensions.DeviceDriver object at 0x7f00d94da9c0>'
+2022-12-03 03:16:22,210 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.Device object at 0x7f00d9523b00>.filters = []'
+2022-12-03 03:16:22,210 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.Device object at 0x7f00d9523b00>.connection = GS-24'
+2022-12-03 03:16:22,211 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.Device object at 0x7f00d9523b00>.jobs = []'
+2022-12-03 03:16:22,211 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.Device object at 0x7f00d9523b00>.queue = []'
+2022-12-03 03:16:22,211 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.Device object at 0x7f00d9523b00>.config = <inkcut.device.plugin.DeviceConfig object at 0x7f00d94db500>'
+2022-12-03 03:16:22,225 | DEBUG   | inkcut | Starting plugin 'inkcut.job'
+2022-12-03 03:16:22,233 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Material object at 0x7f00d9535540>.size = [1800.0, 2700.0]'
+2022-12-03 03:16:22,233 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Material object at 0x7f00d9535540>.padding = [10.0, 10.0, 10.0, 10.0]'
+2022-12-03 03:16:22,233 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Material object at 0x7f00d9535540>.name = '
+2022-12-03 03:16:22,233 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Material object at 0x7f00d9535540>.color = #000000'
+2022-12-03 03:16:22,233 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Material object at 0x7f00d9535540>.is_roll = False'
+2022-12-03 03:16:22,233 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Material object at 0x7f00d9535540>.used = [0.0, 0.0]'
+2022-12-03 03:16:22,233 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Material object at 0x7f00d9535540>.cost = 1.0'
+2022-12-03 03:16:22,234 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Material object at 0x7f00d9535540>.use_force = False'
+2022-12-03 03:16:22,234 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Material object at 0x7f00d9535540>.use_speed = False'
+2022-12-03 03:16:22,234 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Material object at 0x7f00d9535540>.force = 10'
+2022-12-03 03:16:22,234 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Material object at 0x7f00d9535540>.speed = 10'
+2022-12-03 03:16:22,234 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7f00d9535980>.status = staged'
+2022-12-03 03:16:22,235 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7f00d9535980>.created = 2022-06-18 21:32:10.721349'
+2022-12-03 03:16:22,235 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7f00d9535980>.started = None'
+2022-12-03 03:16:22,235 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7f00d9535980>.ended = None'
+2022-12-03 03:16:22,235 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7f00d9535980>.progress = 0'
+2022-12-03 03:16:22,235 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7f00d9535980>.data = '
+2022-12-03 03:16:22,235 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7f00d9535980>.count = 0'
+2022-12-03 03:16:22,235 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7f00d9535980>.speed = 0.0'
+2022-12-03 03:16:22,236 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7f00d9535980>.length = 0.0'
+2022-12-03 03:16:22,236 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7f00d9535980>.duration = 0:00:00'
+2022-12-03 03:16:22,236 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7f00d9535980>.units = in'
+2022-12-03 03:16:22,236 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7f00d9535980>.auto_approve = False'
+2022-12-03 03:16:22,237 | DEBUG   | inkcut | Restoring state 'Empty document.material = <inkcut.job.models.Material object at 0x7f00d9535540>'
+2022-12-03 03:16:22,237 | DEBUG   | inkcut | Restoring state 'Empty document.document = -'
+2022-12-03 03:16:22,250 | DEBUG   | inkcut | Restoring state '-.document_kwargs = {'ids': ['/*/*[3]/*']}'
+2022-12-03 03:16:22,250 | DEBUG   | inkcut | Restoring state '-.info = <inkcut.job.models.JobInfo object at 0x7f00d9535980>'
+2022-12-03 03:16:22,250 | DEBUG   | inkcut | Restoring state '-.scale = [1.0, 1.0]'
+2022-12-03 03:16:22,250 | DEBUG   | inkcut | Restoring state '-.auto_scale = False'
+2022-12-03 03:16:22,251 | DEBUG   | inkcut | Restoring state '-.lock_scale = True'
+2022-12-03 03:16:22,251 | DEBUG   | inkcut | Restoring state '-.mirror = [False, False]'
+2022-12-03 03:16:22,251 | DEBUG   | inkcut | Restoring state '-.align_center = [False, False]'
+2022-12-03 03:16:22,251 | DEBUG   | inkcut | Restoring state '-.rotation = 0.0'
+2022-12-03 03:16:22,251 | DEBUG   | inkcut | Restoring state '-.auto_rotate = False'
+2022-12-03 03:16:22,251 | DEBUG   | inkcut | Restoring state '-.copies = 1'
+2022-12-03 03:16:22,252 | DEBUG   | inkcut | Restoring state '-.auto_copies = False'
+2022-12-03 03:16:22,252 | DEBUG   | inkcut | Restoring state '-.copy_spacing = [10.0, 10.0]'
+2022-12-03 03:16:22,252 | DEBUG   | inkcut | Restoring state '-.copy_weedline = False'
+2022-12-03 03:16:22,252 | DEBUG   | inkcut | Restoring state '-.copy_weedline_padding = [10.0, 10.0, 10.0, 10.0]'
+2022-12-03 03:16:22,252 | DEBUG   | inkcut | Restoring state '-.plot_weedline = False'
+2022-12-03 03:16:22,252 | DEBUG   | inkcut | Restoring state '-.plot_weedline_padding = [10.0, 10.0, 10.0, 10.0]'
+2022-12-03 03:16:22,253 | DEBUG   | inkcut | Restoring state '-.order = Normal'
+2022-12-03 03:16:22,253 | DEBUG   | inkcut | Restoring state '-.feed_to_end = False'
+2022-12-03 03:16:22,253 | DEBUG   | inkcut | Restoring state '-.feed_after = 0.0'
+2022-12-03 03:16:22,253 | INFO    | inkcut | {'type': 'create', 'object': <inkcut.job.plugin.JobPlugin object at 0x7f00d9503840>, 'name': 'job', 'value': <inkcut.job.models.Job object at 0x7f00d94e7e80>}
+2022-12-03 03:16:22,276 | INFO    | inkcut | Saving state due to change: {'type': 'request'}
+2022-12-03 03:16:22,279 | INFO    | inkcut | {'type': 'update', 'object': <inkcut.job.plugin.JobPlugin object at 0x7f00d9503840>, 'name': 'job', 'oldvalue': <inkcut.job.models.Job object at 0x7f00d94e7e80>, 'value': <inkcut.job.models.Job object at 0x7f00d96264c0>}
+2022-12-03 03:16:22,280 | INFO    | inkcut | Saving state due to change: {'type': 'request'}
+2022-12-03 03:16:22,287 | WARNING | inkcut | Plugin inkcut.job state restored from: /home/fablab/.config/inkcut/inkcut.job.json
+2022-12-03 03:16:22,287 | INFO    | inkcut | {}
+2022-12-03 03:16:22,288 | INFO    | inkcut | Saving state due to change: {'type': 'request'}
+2022-12-03 03:16:22,293 | INFO    | inkcut | {}
+2022-12-03 03:16:22,294 | INFO    | inkcut | Saving state due to change: {'type': 'request'}
+2022-12-03 03:16:22,299 | WARNING | inkcut | Plugin inkcut.device state restored from: /home/fablab/.config/inkcut/inkcut.device.json
+2022-12-03 03:16:22,412 | INFO    | inkcut | Loading plugin inkcut.job
+2022-12-03 03:16:22,630 | INFO    | inkcut | Loading plugin inkcut.job
+2022-12-03 03:16:22,631 | INFO    | inkcut | Loading plugin inkcut.job
+2022-12-03 03:16:22,631 | INFO    | inkcut | Loading plugin inkcut.job
+2022-12-03 03:16:22,632 | INFO    | inkcut | Loading plugin inkcut.job
+2022-12-03 03:16:22,632 | INFO    | inkcut | Loading plugin inkcut.monitor
+2022-12-03 03:16:22,637 | DEBUG   | inkcut | Starting plugin 'inkcut.monitor'
+2022-12-03 03:16:22,672 | DEBUG   | inkcut | Updating dock items: [<inkcut.console.view.ConsoleDockItem object at 0x7f00e461a5c0>, <inkcut.joystick.view.JoystickDockItem object at 0x7f00e445a100>, <inkcut.preview.view.PreviewDockItem object at 0x7f00dae49f40>, <inkcut.device.view.DeviceProgressDockItem object at 0x7f00dae49f80>, <inkcut.job.view.GraphicDockItem object at 0x7f00d8ac4c80>, <inkcut.job.view.MaterialDockItem object at 0x7f00d8b01380>, <inkcut.job.view.WeedlinesDockItem object at 0x7f00d8b000c0>, <inkcut.job.view.LayersDockItem object at 0x7f00d8b01fc0>, <inkcut.job.view.JobHistoryDockItem object at 0x7f00d8b01980>, <inkcut.monitor.view.MonitorDockItem object at 0x7f00d9b48bc0>]
+2022-12-03 03:16:22,731 | DEBUG   | inkcut | Updating settings pages: [<inkcut.ui.extensions.SettingsPage object at 0x7f00e696c8c0>, <inkcut.ui.extensions.SettingsPage object at 0x7f00e464b100>, <inkcut.ui.extensions.SettingsPage object at 0x7f00e464ac40>]
+2022-12-03 03:16:22,732 | DEBUG   | inkcut | Starting plugin 'inkcut.ui'
+2022-12-03 03:16:22,735 | WARNING | inkcut | Plugin inkcut.ui state restored from: /home/fablab/.config/inkcut/inkcut.ui.json
+2022-12-03 03:16:23,634 | DEBUG   | asyncio | Using selector: EpollSelector
+2022-12-03 03:16:23,663 | DEBUG   | asyncio | Using selector: EpollSelector
+2022-12-03 03:16:24,275 | DEBUG   | inkcut | CLI | Runinng command 'open' with args: Namespace(path='-', nodes=['/*/*[3]/*'], cmd=<inkcut.cli.plugin.Command object at 0x7f00e464b340>)
+2022-12-03 03:16:24,279 | DEBUG   | inkcut | Opening document from stdin...
+2022-12-03 03:16:24,279 | INFO    | inkcut | Closing -
+2022-12-03 03:16:24,279 | INFO    | inkcut | {'type': 'update', 'object': <inkcut.job.plugin.JobPlugin object at 0x7f00d9503840>, 'name': 'job', 'oldvalue': <inkcut.job.models.Job object at 0x7f00d96264c0>, 'value': <inkcut.job.models.Job object at 0x7f00d80ddb00>}
+2022-12-03 03:16:24,290 | INFO    | inkcut | Saving state due to change: {'type': 'request'}
+2022-12-03 03:16:24,292 | INFO    | inkcut | Saving state due to change: {'type': 'update', 'object': <inkcut.job.plugin.JobPlugin object at 0x7f00d9503840>, 'name': 'job', 'oldvalue': <inkcut.job.models.Job object at 0x7f00d96264c0>, 'value': <inkcut.job.models.Job object at 0x7f00d80ddb00>}
+2022-12-03 03:16:24,301 | INFO    | inkcut | Opening -
+2022-12-03 03:16:24,311 | ERROR   | inkcut | Traceback (most recent call last):
+  File "/home/fablab/.local/lib/python3.10/site-packages/inkcut/cli/plugin.py", line 166, in run
+    sys.exit(cmd.run(args))
+  File "/home/fablab/.local/lib/python3.10/site-packages/inkcut/cli/plugin.py", line 64, in run
+    return self.declaration.handler(self)
+  File "/home/fablab/.local/lib/python3.10/site-packages/inkcut/job/manifest.enaml", line 72, in cli_open_document
+    'nodes':cmd.args.nodes})
+  File "/home/fablab/.local/lib/python3.10/site-packages/enaml/workbench/core/core_plugin.py", line 78, in invoke_command
+    return command.handler(event)
+  File "/home/fablab/.local/lib/python3.10/site-packages/inkcut/job/manifest.enaml", line 50, in open_document
+    plugin.open_document(path, nodes=event.parameters.get('nodes'))
+  File "/home/fablab/.local/lib/python3.10/site-packages/inkcut/job/plugin.py", line 131, in open_document
+    job.document = path
+  File "/home/fablab/.local/lib/python3.10/site-packages/inkcut/job/models.py", line 242, in _observe_document
+    self.path = QtSvgDoc(sys.stdin, **self.document_kwargs)
+  File "/home/fablab/.local/lib/python3.10/site-packages/inkcut/core/svg.py", line 708, in __init__
+    self._doc = etree.parse(e)
+  File "src/lxml/etree.pyx", line 3536, in lxml.etree.parse
+  File "src/lxml/parser.pxi", line 1897, in lxml.etree._parseDocument
+  File "src/lxml/parser.pxi", line 1917, in lxml.etree._parseFilelikeDocument
+  File "src/lxml/parser.pxi", line 1811, in lxml.etree._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 1201, in lxml.etree._BaseParser._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 615, in lxml.etree._ParserContext._handleParseResultDoc
+  File "src/lxml/parser.pxi", line 725, in lxml.etree._handleParseResult
+  File "src/lxml/parser.pxi", line 654, in lxml.etree._raiseParseError
+  File "/home/fablab/.config/inkscape/extensions/<stdin>", line 1
+lxml.etree.XMLSyntaxError: Document is empty, line 1, column 1
+
+2022-12-03 03:16:56,376 | INFO    | inkcut | ========================================
+2022-12-03 03:16:56,376 | INFO    | inkcut | Inkcut launched
+2022-12-03 03:16:56,377 | INFO    | inkcut | Version: 2.1.5
+2022-12-03 03:16:56,377 | INFO    | inkcut | Python: 3.10.6 (main, Nov  2 2022, 18:53:38) [GCC 11.3.0]
+2022-12-03 03:16:56,377 | INFO    | inkcut | System: uname_result(system='Linux', node='musterclient', release='5.15.0-56-generic', version='#62-Ubuntu SMP Tue Nov 22 19:54:14 UTC 2022', machine='x86_64')
+2022-12-03 03:16:56,377 | INFO    | inkcut | Executable: /usr/bin/python3
+2022-12-03 03:16:56,377 | INFO    | inkcut | Args: ['/home/fablab/.local/bin/inkcut', 'open', '-']
+2022-12-03 03:16:56,406 | INFO    | inkcut | Qt: 5.15.3 Api:
+2022-12-03 03:16:56,406 | INFO    | inkcut | ========================================
+2022-12-03 03:16:57,049 | DEBUG   | inkcut | Starting plugin 'inkcut.core'
+2022-12-03 03:16:57,050 | DEBUG   | inkcut | Inkcut loaded.
+2022-12-03 03:16:57,057 | DEBUG   | inkcut | CLI | Commands loaded
+2022-12-03 03:16:57,060 | WARNING | inkcut | Setting locale: de_DE
+2022-12-03 03:16:57,559 | DEBUG   | inkcut | CLI | Commands loaded
+2022-12-03 03:16:57,578 | INFO    | inkcut | Loading plugin inkcut.preview
+2022-12-03 03:16:57,797 | DEBUG   | inkcut | Starting plugin 'inkcut.preview'
+2022-12-03 03:16:57,826 | INFO    | inkcut | Loading plugin inkcut.device
+2022-12-03 03:16:57,927 | DEBUG   | inkcut | Starting plugin 'inkcut.device'
+2022-12-03 03:16:57,929 | DEBUG   | inkcut | Restoring state '<inkcut.core.models.AreaBase object at 0x7fdf3d9c5480>.size = [2125.98425196, 1771.6535433000001]'
+2022-12-03 03:16:57,929 | DEBUG   | inkcut | Restoring state '<inkcut.core.models.AreaBase object at 0x7fdf3d9c5480>.padding = [10.0, 10.0, 10.0, 10.0]'
+2022-12-03 03:16:57,939 | DEBUG   | inkcut | Restoring state '<inkcut.device.transports.printer.plugin.CupsPrinterConfig object at 0x7fdf3d9c5cc0>.printer = GS-24'
+2022-12-03 03:16:57,940 | DEBUG   | inkcut | Restoring state '<inkcut.device.protocols.hpgl.HPGLProtocol object at 0x7fdf3d9c5d80>.declaration = <inkcut.device.extensions.DeviceProtocol object at 0x7fdf3d9c6d80>'
+2022-12-03 03:16:57,940 | DEBUG   | inkcut | Restoring state '<inkcut.device.protocols.hpgl.HPGLProtocol object at 0x7fdf3d9c5d80>.config = <inkcut.core.models.Model object at 0x7fdf3d9d6680>'
+2022-12-03 03:16:57,942 | DEBUG   | inkcut | Restoring state 'GS-24.declaration = <inkcut.device.extensions.DeviceTransport object at 0x7fdf3d9c5c40>'
+2022-12-03 03:16:57,942 | DEBUG   | inkcut | Restoring state 'GS-24.config = <inkcut.device.transports.printer.plugin.CupsPrinterConfig object at 0x7fdf3d9c5cc0>'
+2022-12-03 03:16:57,943 | DEBUG   | inkcut | Restoring state 'GS-24.protocol = <inkcut.device.protocols.hpgl.HPGLProtocol object at 0x7fdf3d9c5d80>'
+2022-12-03 03:16:57,943 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7fdf3d9c5c00>.step_time = 35.0'
+2022-12-03 03:16:57,943 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7fdf3d9c5c00>.custom_rate = -1.0'
+2022-12-03 03:16:57,943 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7fdf3d9c5c00>.step_size = 3.5433070866'
+2022-12-03 03:16:57,943 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7fdf3d9c5c00>.interpolate = False'
+2022-12-03 03:16:57,944 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7fdf3d9c5c00>.sample_rate = 100'
+2022-12-03 03:16:57,944 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7fdf3d9c5c00>.rotation = 0'
+2022-12-03 03:16:57,944 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7fdf3d9c5c00>.swap_xy = False'
+2022-12-03 03:16:57,944 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7fdf3d9c5c00>.mirror_y = False'
+2022-12-03 03:16:57,944 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7fdf3d9c5c00>.mirror_x = False'
+2022-12-03 03:16:57,944 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7fdf3d9c5c00>.scale = [1.0, 1.0]'
+2022-12-03 03:16:57,945 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7fdf3d9c5c00>.quality_factor = 1.0'
+2022-12-03 03:16:57,945 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7fdf3d9c5c00>.speed = 4.0'
+2022-12-03 03:16:57,945 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7fdf3d9c5c00>.speed_units = in/s'
+2022-12-03 03:16:57,945 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7fdf3d9c5c00>.speed_enabled = False'
+2022-12-03 03:16:57,945 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7fdf3d9c5c00>.force = 40.0'
+2022-12-03 03:16:57,945 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7fdf3d9c5c00>.force_units = g'
+2022-12-03 03:16:57,945 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7fdf3d9c5c00>.force_enabled = False'
+2022-12-03 03:16:57,946 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7fdf3d9c5c00>.absolute = False'
+2022-12-03 03:16:57,946 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7fdf3d9c5c00>.spooled = False'
+2022-12-03 03:16:57,946 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7fdf3d9c5c00>.test_mode = False'
+2022-12-03 03:16:57,946 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7fdf3d9c5c00>.commands_before = '
+2022-12-03 03:16:57,946 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7fdf3d9c5c00>.commands_after = '
+2022-12-03 03:16:57,946 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7fdf3d9c5c00>.commands_connect = '
+2022-12-03 03:16:57,946 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.DeviceConfig object at 0x7fdf3d9c5c00>.commands_disconnect = '
+2022-12-03 03:16:57,947 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.Device object at 0x7fdf3e31c880>.name = Roland CAMM-1 GS-24'
+2022-12-03 03:16:57,947 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.Device object at 0x7fdf3e31c880>.manufacturer = Roland'
+2022-12-03 03:16:57,947 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.Device object at 0x7fdf3e31c880>.model = CX-24'
+2022-12-03 03:16:57,947 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.Device object at 0x7fdf3e31c880>.custom = False'
+2022-12-03 03:16:57,947 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.Device object at 0x7fdf3e31c880>.area = <inkcut.core.models.AreaBase object at 0x7fdf3d9c5480>'
+2022-12-03 03:16:57,947 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.Device object at 0x7fdf3e31c880>.declaration = <inkcut.device.extensions.DeviceDriver object at 0x7fdf51b9edc0>'
+2022-12-03 03:16:57,948 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.Device object at 0x7fdf3e31c880>.filters = []'
+2022-12-03 03:16:57,948 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.Device object at 0x7fdf3e31c880>.connection = GS-24'
+2022-12-03 03:16:57,948 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.Device object at 0x7fdf3e31c880>.jobs = []'
+2022-12-03 03:16:57,948 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.Device object at 0x7fdf3e31c880>.queue = []'
+2022-12-03 03:16:57,948 | DEBUG   | inkcut | Restoring state '<inkcut.device.plugin.Device object at 0x7fdf3e31c880>.config = <inkcut.device.plugin.DeviceConfig object at 0x7fdf3d9c5c00>'
+2022-12-03 03:16:57,953 | DEBUG   | inkcut | Starting plugin 'inkcut.job'
+2022-12-03 03:16:57,953 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Material object at 0x7fdf3d9e4800>.size = [1800.0, 2700.0]'
+2022-12-03 03:16:57,954 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Material object at 0x7fdf3d9e4800>.padding = [10.0, 10.0, 10.0, 10.0]'
+2022-12-03 03:16:57,954 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Material object at 0x7fdf3d9e4800>.name = '
+2022-12-03 03:16:57,954 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Material object at 0x7fdf3d9e4800>.color = #000000'
+2022-12-03 03:16:57,954 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Material object at 0x7fdf3d9e4800>.is_roll = False'
+2022-12-03 03:16:57,954 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Material object at 0x7fdf3d9e4800>.used = [0.0, 0.0]'
+2022-12-03 03:16:57,954 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Material object at 0x7fdf3d9e4800>.cost = 1.0'
+2022-12-03 03:16:57,955 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Material object at 0x7fdf3d9e4800>.use_force = False'
+2022-12-03 03:16:57,955 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Material object at 0x7fdf3d9e4800>.use_speed = False'
+2022-12-03 03:16:57,955 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Material object at 0x7fdf3d9e4800>.force = 10'
+2022-12-03 03:16:57,955 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.Material object at 0x7fdf3d9e4800>.speed = 10'
+2022-12-03 03:16:57,956 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7fdf3d9e5040>.status = staged'
+2022-12-03 03:16:57,956 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7fdf3d9e5040>.created = 2022-12-03 03:16:24.291080'
+2022-12-03 03:16:57,956 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7fdf3d9e5040>.started = None'
+2022-12-03 03:16:57,956 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7fdf3d9e5040>.ended = None'
+2022-12-03 03:16:57,956 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7fdf3d9e5040>.progress = 0'
+2022-12-03 03:16:57,957 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7fdf3d9e5040>.data = '
+2022-12-03 03:16:57,957 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7fdf3d9e5040>.count = 0'
+2022-12-03 03:16:57,957 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7fdf3d9e5040>.speed = 0.0'
+2022-12-03 03:16:57,957 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7fdf3d9e5040>.length = 0.0'
+2022-12-03 03:16:57,957 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7fdf3d9e5040>.duration = 0:00:00'
+2022-12-03 03:16:57,957 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7fdf3d9e5040>.units = in'
+2022-12-03 03:16:57,957 | DEBUG   | inkcut | Restoring state '<inkcut.job.models.JobInfo object at 0x7fdf3d9e5040>.auto_approve = False'
+2022-12-03 03:16:57,958 | DEBUG   | inkcut | Restoring state 'Empty document.material = <inkcut.job.models.Material object at 0x7fdf3d9e4800>'
+2022-12-03 03:16:57,958 | DEBUG   | inkcut | Restoring state 'Empty document.document = '
+2022-12-03 03:16:57,958 | DEBUG   | inkcut | Restoring state 'Empty document.document_kwargs = {}'
+2022-12-03 03:16:57,958 | DEBUG   | inkcut | Restoring state 'Empty document.info = <inkcut.job.models.JobInfo object at 0x7fdf3d9e5040>'
+2022-12-03 03:16:57,959 | DEBUG   | inkcut | Restoring state 'Empty document.scale = [1.0, 1.0]'
+2022-12-03 03:16:57,959 | DEBUG   | inkcut | Restoring state 'Empty document.auto_scale = False'
+2022-12-03 03:16:57,959 | DEBUG   | inkcut | Restoring state 'Empty document.lock_scale = True'
+2022-12-03 03:16:57,959 | DEBUG   | inkcut | Restoring state 'Empty document.mirror = [False, False]'
+2022-12-03 03:16:57,959 | DEBUG   | inkcut | Restoring state 'Empty document.align_center = [False, False]'
+2022-12-03 03:16:57,959 | DEBUG   | inkcut | Restoring state 'Empty document.rotation = 0.0'
+2022-12-03 03:16:57,960 | DEBUG   | inkcut | Restoring state 'Empty document.auto_rotate = False'
+2022-12-03 03:16:57,960 | DEBUG   | inkcut | Restoring state 'Empty document.copies = 1'
+2022-12-03 03:16:57,960 | DEBUG   | inkcut | Restoring state 'Empty document.auto_copies = False'
+2022-12-03 03:16:57,960 | DEBUG   | inkcut | Restoring state 'Empty document.copy_spacing = [10.0, 10.0]'
+2022-12-03 03:16:57,960 | DEBUG   | inkcut | Restoring state 'Empty document.copy_weedline = False'
+2022-12-03 03:16:57,960 | DEBUG   | inkcut | Restoring state 'Empty document.copy_weedline_padding = [10.0, 10.0, 10.0, 10.0]'
+2022-12-03 03:16:57,961 | DEBUG   | inkcut | Restoring state 'Empty document.plot_weedline = False'
+2022-12-03 03:16:57,961 | DEBUG   | inkcut | Restoring state 'Empty document.plot_weedline_padding = [10.0, 10.0, 10.0, 10.0]'
+2022-12-03 03:16:57,961 | DEBUG   | inkcut | Restoring state 'Empty document.order = Normal'
+2022-12-03 03:16:57,961 | DEBUG   | inkcut | Restoring state 'Empty document.feed_to_end = False'
+2022-12-03 03:16:57,961 | DEBUG   | inkcut | Restoring state 'Empty document.feed_after = 0.0'
+2022-12-03 03:16:57,962 | INFO    | inkcut | {'type': 'create', 'object': <inkcut.job.plugin.JobPlugin object at 0x7fdf3db62d80>, 'name': 'job', 'value': <inkcut.job.models.Job object at 0x7fdf3d9d7880>}
+2022-12-03 03:16:57,963 | INFO    | inkcut | Saving state due to change: {'type': 'request'}
+2022-12-03 03:16:57,966 | INFO    | inkcut | {'type': 'update', 'object': <inkcut.job.plugin.JobPlugin object at 0x7fdf3db62d80>, 'name': 'job', 'oldvalue': <inkcut.job.models.Job object at 0x7fdf3d9d7880>, 'value': <inkcut.job.models.Job object at 0x7fdf3e325100>}
+2022-12-03 03:16:57,966 | INFO    | inkcut | Saving state due to change: {'type': 'request'}
+2022-12-03 03:16:57,974 | WARNING | inkcut | Plugin inkcut.job state restored from: /home/fablab/.config/inkcut/inkcut.job.json
+2022-12-03 03:16:57,975 | INFO    | inkcut | {}
+2022-12-03 03:16:57,975 | INFO    | inkcut | Saving state due to change: {'type': 'request'}
+2022-12-03 03:16:57,981 | WARNING | inkcut | Plugin inkcut.device state restored from: /home/fablab/.config/inkcut/inkcut.device.json
+2022-12-03 03:16:58,080 | INFO    | inkcut | Loading plugin inkcut.joystick
+2022-12-03 03:16:58,080 | DEBUG   | inkcut | Starting plugin 'inkcut.joystick'
+2022-12-03 03:16:58,127 | INFO    | inkcut | Loading plugin inkcut.monitor
+2022-12-03 03:16:58,128 | DEBUG   | inkcut | Starting plugin 'inkcut.monitor'
+2022-12-03 03:16:58,157 | INFO    | inkcut | Loading plugin inkcut.console
+2022-12-03 03:16:58,585 | INFO    | inkcut | Loading plugin inkcut.job
+2022-12-03 03:16:58,773 | INFO    | inkcut | Loading plugin inkcut.job
+2022-12-03 03:16:58,773 | INFO    | inkcut | Loading plugin inkcut.job
+2022-12-03 03:16:58,774 | INFO    | inkcut | Loading plugin inkcut.job
+2022-12-03 03:16:58,774 | INFO    | inkcut | Loading plugin inkcut.job
+2022-12-03 03:16:58,774 | DEBUG   | inkcut | Updating dock items: [<inkcut.preview.view.PreviewDockItem object at 0x7fdf50f335c0>, <inkcut.device.view.DeviceProgressDockItem object at 0x7fdf3d9c51c0>, <inkcut.joystick.view.JoystickDockItem object at 0x7fdf3da1f580>, <inkcut.monitor.view.MonitorDockItem object at 0x7fdf3d9e4c80>, <inkcut.console.view.ConsoleDockItem object at 0x7fdf3da655c0>, <inkcut.job.view.GraphicDockItem object at 0x7fdf31fa42c0>, <inkcut.job.view.MaterialDockItem object at 0x7fdf31caf9c0>, <inkcut.job.view.WeedlinesDockItem object at 0x7fdf31b19cc0>, <inkcut.job.view.LayersDockItem object at 0x7fdf31b1a540>, <inkcut.job.view.JobHistoryDockItem object at 0x7fdf31fa4880>]
+2022-12-03 03:16:58,814 | DEBUG   | inkcut | Updating settings pages: [<inkcut.ui.extensions.SettingsPage object at 0x7fdf50f8a0c0>, <inkcut.ui.extensions.SettingsPage object at 0x7fdf50f8a5c0>, <inkcut.ui.extensions.SettingsPage object at 0x7fdf519347c0>]
+2022-12-03 03:16:58,814 | DEBUG   | inkcut | Starting plugin 'inkcut.ui'
+2022-12-03 03:16:58,814 | WARNING | inkcut | Plugin inkcut.ui state restored from: /home/fablab/.config/inkcut/inkcut.ui.json
+2022-12-03 03:16:59,332 | DEBUG   | asyncio | Using selector: EpollSelector
+2022-12-03 03:16:59,340 | DEBUG   | asyncio | Using selector: EpollSelector
+2022-12-03 03:16:59,652 | DEBUG   | inkcut | CLI | Runinng command 'open' with args: Namespace(path='-', nodes=None, cmd=<inkcut.cli.plugin.Command object at 0x7fdf50f8a800>)
+2022-12-03 03:16:59,654 | DEBUG   | inkcut | Opening document from stdin...
+2022-12-03 03:16:59,654 | INFO    | inkcut | Opening -
+2022-12-03 03:16:59,656 | INFO    | inkcut | {'type': 'update', 'object': <inkcut.job.models.Job object at 0x7fdf3e325100>, 'name': 'model', 'oldvalue': None, 'value': <PyQt5.QtGui.QPainterPath object at 0x7fdf307e30d0>}
+2022-12-03 03:16:59,667 | INFO    | inkcut | Saving state due to change: {'type': 'request'}
+2022-12-03 03:17:03,455 | INFO    | inkcut | ========================================
+2022-12-03 03:17:03,455 | INFO    | inkcut | Inkcut exited cleanly
+2022-12-03 03:17:03,455 | INFO    | inkcut | ========================================
