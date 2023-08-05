@@ -8,7 +8,7 @@
     isNormalUser = true;
     createHome = true;
     description = "FabLab";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "dialout" "networkmanager" "wheel" ];
     packages = with pkgs; [
       firefox
       kate
