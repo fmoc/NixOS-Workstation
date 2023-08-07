@@ -3,4 +3,4 @@ Index=Netzlaufwerk
 
 [Netzlaufwerk]
 Type=SMB
-URL=smb://omv.linuxmuster.lan/public
+URL=smb://omv.fablab.local/public
