@@ -10,7 +10,7 @@ Nächste Schritte:
 - Job '$jobname' auswählen und Startknopf drücken!</jobSentText>
   <jobPrefix>VC</jobPrefix>
   <laserCutter class="de.thomas_oster.liblasercut.drivers.EpilogZing">
-    <hostname>zing24.linuxmuster.lan</hostname>
+    <hostname>zing24.fablab.local</hostname>
     <port>515</port>
     <autofocus>false</autofocus>
     <hideSoftwareFocus>false</hideSoftwareFocus>
