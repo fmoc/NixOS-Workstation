@@ -18,8 +18,9 @@ stdenv.mkDerivation rec {
     runHook preInstall
 
     rm ${pname}.{exe,Linux,MacOS}
-    mkdir -p $out/share
+    mkdir -p $out/share/icons
     cp -r . $out/share/${pname}
+    cp examples/Basic/visicut-icon.png $out/share/icons/visicut.png
 
     mkdir -p $out/share/applications
     echo "
@@ -28,6 +29,7 @@ Name=VisiCut
 Comment=A userfriendly tool to create, save and send Jobs to a Lasercutter
 Comment[de]=Ein benutzerfreundliches Tool zum Erstellen, Speichern und Senden von Jobs an einen Lasercutter
 Exec=$out/bin/VisiCut.Linux %F
+Icon=visicut
 Terminal=false
 Type=Application
 Categories=Graphics;VectorGraphics;GTK;
