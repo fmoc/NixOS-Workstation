@@ -7,6 +7,7 @@
     inkcut
     inkscape-with-extensions
     inkscape-extensions.inkcut
+    libreoffice
     openscad
     prusa-slicer
     (callPackage applications/visicut.nix { })
