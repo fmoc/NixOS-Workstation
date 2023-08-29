@@ -11,5 +11,6 @@
     openscad
     prusa-slicer
     (callPackage applications/visicut.nix { })
+    yakuake
   ];
 }

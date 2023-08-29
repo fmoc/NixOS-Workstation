@@ -1,0 +1,7 @@
+[Dialogs]
+FirstRun=false
+
+[Window]
+DynamicTabTitles=true
+KeepOpenAfterLastSessionCloses=true
+ToggleToFocus=true
