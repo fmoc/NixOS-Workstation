@@ -36,7 +36,6 @@
           };
 
           imports = [
-            ./default.nix
             ./configuration.nix
           ];
         })
