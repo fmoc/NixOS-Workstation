@@ -21,9 +21,22 @@
               experimental-features = nix-command flakes
             '';
             registry.nixpkgs.flake = nixpkgs;
+
+            settings = {
+              substituters = [
+                "https://cache.nixos.org"
+                "https://nix-serve.hq.c3d2.de"
+              ];
+
+              trusted-public-keys = [
+                "cache.nixos.org-1:6NCHdD59X431o0gWypbMrAURkbJ16ZPMQFGspcDShjY="
+                "nix-serve.hq.c3d2.de:KZRGGnwOYzys6pxgM8jlur36RmkJQ/y8y62e52fj1ps="
+              ];
+            };
           };
 
           imports = [
+            ./default.nix
             ./configuration.nix
           ];
         })
