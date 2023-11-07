@@ -10,10 +10,10 @@
   outputs = { self, nixpkgs, inkstitch }: {
     nixosConfigurations.fablab = nixpkgs.lib.nixosSystem {
       system = "x86_64-linux";
-      _module.args = { inherit inkstitch; };
       modules = [
         ({ pkgs, ... }: {
           system.configurationRevision = nixpkgs.lib.mkIf (self ? rev) self.rev;
+          _module.args = { inherit inkstitch; };
 
           nix = {
             package = pkgs.nixFlakes;
