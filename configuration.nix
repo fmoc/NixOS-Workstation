@@ -13,6 +13,7 @@
       ./applications.nix
       ./autoupdate.nix
       ./printers.nix
+      ./fonts.nix
     ];
 
   # Bootloader.
