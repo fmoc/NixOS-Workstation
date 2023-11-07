@@ -11,7 +11,23 @@
     nixosConfigurations.fablab = nixpkgs.lib.nixosSystem {
       system = "x86_64-linux";
       _module.args = { inherit inkstitch; };
-      modules = [ ./configuration.nix ];
+      modules = [
+        ({ pkgs, ... }: {
+          system.configurationRevision = nixpkgs.lib.mkIf (self ? rev) self.rev;
+
+          nix = {
+            package = pkgs.nixFlakes;
+            extraOptions = ''
+              experimental-features = nix-command flakes
+            '';
+            registry.nixpkgs.flake = nixpkgs;
+          };
+
+          imports = [
+            ./configuration.nix
+          ];
+        })
+      ];
     };
   };
 }
