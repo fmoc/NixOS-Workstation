@@ -5,7 +5,7 @@ stdenv.mkDerivation rec {
   version = "1.9-205-gd98e82d0";
 
   src = fetchzip {
-    url = "https://download.visicut.org/files/master/All/${pname}-${version}.zip";
+    url = "https://mirror.lewd.wtf/archive/visicut/${pname}-${version}.zip";
     sha256 = "sha256-0PoQVx3Gs4yUsMMgBKUwQSE8Jw4d/fDqFd5MQv64fn4=";
   };
 
