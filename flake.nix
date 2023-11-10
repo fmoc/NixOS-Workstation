@@ -1,7 +1,7 @@
 {
   inputs = {
     nixpkgs = { url = "github:nixos/nixpkgs/nixos-unstable"; };
-    inkstitch = { url = "git+https://codeberg.org/tropf/nix-inkstitch"; };
+    inkstitch = { url = "github:Hayajiro/nix-inkstitch/master"; };
   };
 
   outputs = { self, nixpkgs, inkstitch }: {
@@ -22,12 +22,10 @@
             settings = {
               substituters = [
                 "https://cache.nixos.org"
-                "https://nix-serve.hq.c3d2.de"
               ];
 
               trusted-public-keys = [
                 "cache.nixos.org-1:6NCHdD59X431o0gWypbMrAURkbJ16ZPMQFGspcDShjY="
-                "nix-serve.hq.c3d2.de:KZRGGnwOYzys6pxgM8jlur36RmkJQ/y8y62e52fj1ps="
               ];
             };
           };
