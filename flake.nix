@@ -1,7 +1,7 @@
 {
   inputs = {
     nixpkgs = { url = "github:nixos/nixpkgs/nixos-unstable"; };
-    inkstitch = { url = "github:Hayajiro/nix-inkstitch/master"; };
+    inkstitch = { url = "github:FabLab-Altmuehlfranken/nix-inkstitch/master"; };
   };
 
   outputs = { self, nixpkgs, inkstitch }: {
