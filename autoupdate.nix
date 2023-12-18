@@ -6,6 +6,7 @@
     wantedBy = [ "multi-user.target" ];
     script = ''
       if [ -f /autoupdate-finished ]; then exit 0; fi
+      nix-collect-garbage --delete-older-than 30d
       rm -rf /etc/nixos
       git clone --depth=1 https://github.com/FabLab-Altmuehlfranken/NixOS-Workstation.git /etc/nixos
       nixos-rebuild boot --flake '/etc/nixos#fablab'
