@@ -16,6 +16,7 @@
       name = "HP_Color_LaserJet_CP5225dn";
       ppdOptions = {
         PageSize = "A4";
+        Option1 = "True";
       };
     }
     {
