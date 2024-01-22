@@ -27,8 +27,5 @@ jobs:
           name: fablab-altmuehlfranken
           authToken: ${{ secrets.CACHIX_AUTH_TOKEN }}
 
-      - name: Install nixos-rebuild helper
-        run: nix-env --quiet -j8 -iA nixos-rebuild
-
       - name: Build configuration
-        run: nixos-rebuild build --flake .#fablab
+        run: nix build .#nixosConfigurations.fablab.config.system.build.toplevel
