@@ -7,6 +7,7 @@
     wantedBy = [ "multi-user.target" ];
     script = ''
       if [ -f /autoupdate-finished ]; then exit 0; fi
+      TZ=UTC rtcwake --date "$(date -d "tomorrow 3am" "+%Y-%m-%d %H:%M")"
       nix-collect-garbage --delete-older-than 30d
       rm -rf /etc/nixos
       git clone --depth=1 https://github.com/FabLab-Altmuehlfranken/NixOS-Workstation.git /etc/nixos
