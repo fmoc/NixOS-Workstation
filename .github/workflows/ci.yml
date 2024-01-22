@@ -17,7 +17,7 @@ jobs:
         uses: easimon/maximize-build-space@v10
         with:
           build-mount-path: '/nix'
-          root-reserve-mb: 512
+          root-reserve-mb: 8192
           swap-size-mb: 1024
           remove-android: 'true'
           remove-codeql: 'true'
