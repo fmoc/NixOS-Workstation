@@ -2,6 +2,7 @@
 {
   systemd.services.autoupdater = {
     after = [ "network-online.target" ];
+    wants = [ "network-online.target" ];
     description = "FabLab AutoUpdater";
     wantedBy = [ "multi-user.target" ];
     script = ''
