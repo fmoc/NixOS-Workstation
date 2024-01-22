@@ -22,10 +22,12 @@
             settings = {
               substituters = [
                 "https://cache.nixos.org"
+                "https://fablab-altmuehlfranken.cachix.org"
               ];
 
               trusted-public-keys = [
                 "cache.nixos.org-1:6NCHdD59X431o0gWypbMrAURkbJ16ZPMQFGspcDShjY="
+                "fablab-altmuehlfranken.cachix.org-1:GcRkMyk//g8xxizM3rvvqgm95+JSDm0+dVpoBF+YB/c="
               ];
             };
           };
