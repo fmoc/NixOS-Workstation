@@ -13,4 +13,6 @@
     (callPackage applications/visicut.nix { })
     yakuake
   ];
+
+  virtualisation.docker.enable = true;
 }
