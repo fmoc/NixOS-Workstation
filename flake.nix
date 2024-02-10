@@ -12,12 +12,17 @@
           system.configurationRevision = nixpkgs.lib.mkIf (self ? rev) self.rev;
           _module.args = { inherit inkstitch; };
 
+          systemd.tmpfiles.rules = [
+            "L+ /nix/nixPath - - - - ${pkgs.path}"
+          ];
+
           nix = {
             package = pkgs.nixFlakes;
             extraOptions = ''
               experimental-features = nix-command flakes
             '';
             registry.nixpkgs.flake = nixpkgs;
+            nixPath = [ "nixpkgs=/nix/nixPath" ];
 
             settings = {
               substituters = [
