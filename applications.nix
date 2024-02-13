@@ -13,26 +13,6 @@
     (callPackage applications/visicut.nix { })
     yakuake
   ];
-  nixpkgs.overlays = [
-    (
-      final: prev: {
-        inkcut = prev.inkcut.overridePythonAttrs {
-          propagatedBuildInputs = with pkgs.python3.pkgs; [
-            enamlx
-            twisted
-            lxml
-            qreactor
-            jsonpickle
-            pyserial
-            pycups
-            qtconsole
-            pyqt5
-            setuptools
-          ];
-        };
-      }
-    )
-  ];
 
   virtualisation.docker.enable = true;
 }
