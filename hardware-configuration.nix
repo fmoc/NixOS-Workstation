@@ -28,6 +28,12 @@
       fsType = "ext4";
     };
 
+  fileSystems."/home/fablab/Desktop/Netzlaufwerk" = {
+    device = "omv.fablab.local:/desktop";
+    fsType = "nfs";
+    options = [ "nfsvers=4.2" "x-systemd.automount" "noauto" ];
+  };
+
   swapDevices =
     [ { device = "/dev/disk/by-label/swap"; }
     ];
