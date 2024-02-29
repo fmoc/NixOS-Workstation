@@ -67,7 +67,11 @@ jobs:
           if ! git diff --quiet --exit-code; then
             # make sure it is up to date with master
             git stash
-            git pull --rebase origin master
+            # fall back to merge workflow if rebase fails
+            if ! git pull --rebase origin master; then
+              git rebase --abort
+              git pull origin master
+            fi
             git stash pop
 
             # commit changes
