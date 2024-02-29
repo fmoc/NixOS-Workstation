@@ -51,7 +51,7 @@ jobs:
           if ! git pull --rebase origin master; then
             echo "Rebase failed, merge-pulling"
             git rebase --abort
-            git pull origin master
+            git pull --no-rebase origin master
           fi
 
       - name: Check for updated hashes
