@@ -18,6 +18,8 @@ jobs:
     permissions:
       # for git push
       contents: write
+      # to allow opening the PR
+      pull-requests: write
 
     env:
       BRANCH_NAME: "update-fetchgit"
