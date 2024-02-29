@@ -71,8 +71,10 @@ jobs:
 
             # push changes
             git push --set-upstream origin "$BRANCH_NAME"
+          fi
 
-            # if needed, create new PR
+          # if needed, create new PR
+          if ! git diff --quiet --exit-code "$BRANCH_NAME" master; then
             if [[ "$(gh pr list -H "$BRANCH_NAME" --json state | grep open)" == "" ]]; then
               gh pr create -B master -H "$BRANCH_NAME" --title "update-nix-fetchgit" --body "Auto-created by GitHub actions"
             fi
