@@ -65,6 +65,11 @@ jobs:
           # we use a single branch in parallel to ensure only one PR is active at a given time
           # if the PR has not been merged yet and new changes are detected, the existing PR will be updated accordingly
           if ! git diff --quiet --exit-code; then
+            # make sure it is up to date with master
+            git stash
+            git pull --rebase origin master
+            git stash pop
+
             # commit changes
             git commit -m "Update fetchGit hashes" .
 
