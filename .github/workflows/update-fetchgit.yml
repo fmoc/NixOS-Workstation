@@ -70,7 +70,7 @@ jobs:
             # fall back to merge workflow if rebase fails
             if ! git pull --rebase origin master; then
               git rebase --abort
-              git pull origin master
+              git pull --no-rebase origin master
             fi
             git stash pop
 
