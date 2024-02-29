@@ -1,0 +1,79 @@
+name: Update fetchGit repositories
+
+on:
+  push:
+
+  pull_request:
+
+  workflow_dispatch:
+
+  schedule:
+    # run three times a day
+    - cron: "0 4,12,20 * * *"
+
+jobs:
+  update-nix-fetchgit:
+    runs-on: ubuntu-latest
+
+    permissions:
+      # for git push
+      contents: write
+
+    env:
+      BRANCH_NAME: "update-fetchgit"
+
+    steps:
+      - name: Install Nix
+        uses: cachix/install-nix-action@v25
+        with:
+          # needed at least for act
+          # TODO: I have no idea how to properly fill this variable... sigh...
+          #nix_path: nixpkgs=channel:nixpkgs-unstable
+          # avoids rate limits
+          github_access_token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Install update-nix-fetchgit
+        run: |
+          # TODO: should be doable with nix_path above
+          nix-channel --add https://nixos.org/channels/nixpkgs-unstable
+          nix-channel --update
+
+          nix-env -i update-nix-fetchgit
+
+      - uses: actions/checkout@v4
+        with:
+          ref: "${{ env.BRANCH_NAME }}"
+
+      - name: Check for updated hashes
+        run: |
+          update-nix-fetchgit homedir.nix
+          # for debugging
+          git diff
+
+      - name: Open PR if necessary
+        if: github.ref == 'refs/heads/master'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -x
+
+          git config --global user.name "GitHub actions"
+          git config --global user.email "github@actions"
+
+          # we use a single branch in parallel to ensure only one PR is active at a given time
+          # if the PR has not been merged yet and new changes are detected, the existing PR will be updated accordingly
+          if ! git diff --quiet --exit-code; then
+            # commit changes
+            git commit -m "Update fetchGit hashes" .
+
+            # make sure it is up to date with master
+            git pull --rebase origin master
+
+            # push changes
+            git push --set-upstream origin "$BRANCH_NAME"
+
+            # if needed, create new PR
+            if [[ "$(gh pr list -H "$BRANCH_NAME" --json state | grep open)" == "" ]]; then
+              gh pr create -B master -H "$BRANCH_NAME" --title "update-nix-fetchgit" --body "Auto-created by GitHub actions"
+            fi
+          fi
